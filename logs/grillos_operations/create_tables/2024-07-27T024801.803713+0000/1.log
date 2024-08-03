@@ -1,0 +1,52 @@
+[2024-07-27 02:48:05,525] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.create_tables 2024-07-27T02:48:01.803713+00:00 [queued]>
+[2024-07-27 02:48:05,544] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.create_tables 2024-07-27T02:48:01.803713+00:00 [queued]>
+[2024-07-27 02:48:05,544] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 02:48:05,545] {taskinstance.py:1088} INFO - Starting attempt 1 of 4
+[2024-07-27 02:48:05,545] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 02:48:05,566] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): create_tables> on 2024-07-27T02:48:01.803713+00:00
+[2024-07-27 02:48:05,570] {standard_task_runner.py:52} INFO - Started process 910 to run task
+[2024-07-27 02:48:05,576] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'create_tables', '2024-07-27T02:48:01.803713+00:00', '--job-id', '96', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmp435xjknj', '--error-file', '/tmp/tmpd81byiot']
+[2024-07-27 02:48:05,580] {standard_task_runner.py:77} INFO - Job 96: Subtask create_tables
+[2024-07-27 02:48:05,642] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.create_tables 2024-07-27T02:48:01.803713+00:00 [running]> on host af0979500140
+[2024-07-27 02:48:05,725] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=create_tables
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-27T02:48:01.803713+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-27T02:48:01.803713+00:00
+[2024-07-27 02:48:05,726] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    CREATE TABLE IF NOT EXISTS bronze.raw_grillos (
+        id VARCHAR PRIMARY KEY,
+        counter INTEGER,
+        fecha_registro DATE,
+        fecha_nacimiento DATE,
+        tipo CHAR(1),
+        volumen FLOAT
+    );
+    COMMIT;
+    
+[2024-07-27 02:48:05,739] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 02:48:05,746] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    CREATE TABLE IF NOT EXISTS bronze.raw_grillos (
+        id VARCHAR PRIMARY KEY,
+        counter INTEGER,
+        fecha_registro DATE,
+        fecha_nacimiento DATE,
+        tipo CHAR(1),
+        volumen FLOAT
+    );
+    COMMIT;
+    , parameters: None
+[2024-07-27 02:48:05,751] {postgres.py:72} INFO - WARNING:  there is already a transaction in progress
+
+[2024-07-27 02:48:05,752] {postgres.py:72} INFO - NOTICE:  relation "raw_grillos" already exists, skipping
+
+[2024-07-27 02:48:05,752] {postgres.py:72} INFO - WARNING:  there is no transaction in progress
+
+[2024-07-27 02:48:05,771] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=grillos_operations, task_id=create_tables, execution_date=20240727T024801, start_date=20240727T024805, end_date=20240727T024805
+[2024-07-27 02:48:05,827] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-27 02:48:05,867] {local_task_job.py:149} INFO - Task exited with return code 0

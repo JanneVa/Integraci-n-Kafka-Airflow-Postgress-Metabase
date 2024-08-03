@@ -1,0 +1,57 @@
+[2024-07-27 01:55:38,632] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-27T01:45:29.080739+00:00 [queued]>
+[2024-07-27 01:55:38,662] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-27T01:45:29.080739+00:00 [queued]>
+[2024-07-27 01:55:38,664] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:55:38,669] {taskinstance.py:1088} INFO - Starting attempt 3 of 4
+[2024-07-27 01:55:38,671] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:55:38,715] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): copy_data> on 2024-07-27T01:45:29.080739+00:00
+[2024-07-27 01:55:38,723] {standard_task_runner.py:52} INFO - Started process 274 to run task
+[2024-07-27 01:55:38,731] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'copy_data', '2024-07-27T01:45:29.080739+00:00', '--job-id', '47', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmprm2s1gz2', '--error-file', '/tmp/tmpb31sdq_w']
+[2024-07-27 01:55:38,736] {standard_task_runner.py:77} INFO - Job 47: Subtask copy_data
+[2024-07-27 01:55:38,823] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.copy_data 2024-07-27T01:45:29.080739+00:00 [running]> on host af0979500140
+[2024-07-27 01:55:38,960] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=copy_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-27T01:45:29.080739+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-27T01:45:29.080739+00:00
+[2024-07-27 01:55:38,962] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    COPY bronze.raw_grillos (id, counter, fecha_registro, fecha_nacimiento, tipo, volumen)
+    FROM '/import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER
+    ON CONFLICT (id) DO NOTHING;
+    COMMIT;
+    
+[2024-07-27 01:55:38,984] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 01:55:38,994] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    COPY bronze.raw_grillos (id, counter, fecha_registro, fecha_nacimiento, tipo, volumen)
+    FROM '/import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER
+    ON CONFLICT (id) DO NOTHING;
+    COMMIT;
+    , parameters: None
+[2024-07-27 01:55:38,997] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py", line 70, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 208, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.SyntaxError: syntax error at or near "ON"
+LINE 7:     ON CONFLICT (id) DO NOTHING;
+            ^
+
+[2024-07-27 01:55:39,010] {taskinstance.py:1551} INFO - Marking task as UP_FOR_RETRY. dag_id=grillos_operations, task_id=copy_data, execution_date=20240727T014529, start_date=20240727T015538, end_date=20240727T015539
+[2024-07-27 01:55:39,105] {local_task_job.py:149} INFO - Task exited with return code 1

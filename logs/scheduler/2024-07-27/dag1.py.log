@@ -1,0 +1,1388 @@
+[2024-07-27 01:22:02,834] {scheduler_job.py:181} INFO - Started process (PID=162) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:22:02,859] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:22:02,875] {logging_mixin.py:104} INFO - [2024-07-27 01:22:02,874] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:22:03,143] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:22:03,213] {logging_mixin.py:104} INFO - [2024-07-27 01:22:03,213] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:22:03,301] {logging_mixin.py:104} INFO - [2024-07-27 01:22:03,301] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:22:03,397] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.568 seconds
+[2024-07-27 01:22:33,831] {scheduler_job.py:181} INFO - Started process (PID=178) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:22:33,835] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:22:33,847] {logging_mixin.py:104} INFO - [2024-07-27 01:22:33,847] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:22:33,983] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:22:34,097] {logging_mixin.py:104} INFO - [2024-07-27 01:22:34,097] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:22:34,164] {logging_mixin.py:104} INFO - [2024-07-27 01:22:34,164] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:22:34,221] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.406 seconds
+[2024-07-27 01:23:05,016] {scheduler_job.py:181} INFO - Started process (PID=183) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:23:05,019] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:23:05,025] {logging_mixin.py:104} INFO - [2024-07-27 01:23:05,023] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:23:05,091] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:23:05,117] {logging_mixin.py:104} INFO - [2024-07-27 01:23:05,116] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:23:05,137] {logging_mixin.py:104} INFO - [2024-07-27 01:23:05,137] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:23:05,148] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.138 seconds
+[2024-07-27 01:23:36,215] {scheduler_job.py:181} INFO - Started process (PID=195) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:23:36,223] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:23:36,226] {logging_mixin.py:104} INFO - [2024-07-27 01:23:36,226] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:23:36,454] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:23:36,537] {logging_mixin.py:104} INFO - [2024-07-27 01:23:36,537] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:23:36,611] {logging_mixin.py:104} INFO - [2024-07-27 01:23:36,610] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:23:36,664] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.458 seconds
+[2024-07-27 01:24:06,880] {scheduler_job.py:181} INFO - Started process (PID=201) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:06,886] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:24:06,888] {logging_mixin.py:104} INFO - [2024-07-27 01:24:06,888] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:07,004] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:07,045] {logging_mixin.py:104} INFO - [2024-07-27 01:24:07,044] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:24:07,077] {logging_mixin.py:104} INFO - [2024-07-27 01:24:07,077] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:24:07,098] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.226 seconds
+[2024-07-27 01:24:37,500] {scheduler_job.py:181} INFO - Started process (PID=206) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:37,503] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:24:37,506] {logging_mixin.py:104} INFO - [2024-07-27 01:24:37,506] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:37,650] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:37,717] {logging_mixin.py:104} INFO - [2024-07-27 01:24:37,717] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:24:37,794] {logging_mixin.py:104} INFO - [2024-07-27 01:24:37,793] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:24:37,831] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.343 seconds
+[2024-07-27 01:24:57,196] {scheduler_job.py:181} INFO - Started process (PID=211) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:57,199] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:24:57,201] {logging_mixin.py:104} INFO - [2024-07-27 01:24:57,201] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:24:57,529] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:25:00,302] {logging_mixin.py:104} INFO - [2024-07-27 01:25:00,301] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:25:00,339] {logging_mixin.py:104} INFO - [2024-07-27 01:25:00,339] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:25:00,400] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 3.216 seconds
+[2024-07-27 01:25:30,710] {scheduler_job.py:181} INFO - Started process (PID=226) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:25:30,713] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:25:30,715] {logging_mixin.py:104} INFO - [2024-07-27 01:25:30,715] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:25:30,816] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:25:30,932] {logging_mixin.py:104} INFO - [2024-07-27 01:25:30,932] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:25:31,005] {logging_mixin.py:104} INFO - [2024-07-27 01:25:30,994] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:25:31,087] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.382 seconds
+[2024-07-27 01:26:01,667] {scheduler_job.py:181} INFO - Started process (PID=231) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:26:01,670] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:26:01,673] {logging_mixin.py:104} INFO - [2024-07-27 01:26:01,672] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:26:01,930] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:26:02,063] {logging_mixin.py:104} INFO - [2024-07-27 01:26:02,062] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:26:02,117] {logging_mixin.py:104} INFO - [2024-07-27 01:26:02,116] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:26:02,136] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.486 seconds
+[2024-07-27 01:26:33,012] {scheduler_job.py:181} INFO - Started process (PID=236) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:26:33,017] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:26:33,019] {logging_mixin.py:104} INFO - [2024-07-27 01:26:33,019] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:26:33,130] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:26:33,247] {logging_mixin.py:104} INFO - [2024-07-27 01:26:33,246] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:26:33,382] {logging_mixin.py:104} INFO - [2024-07-27 01:26:33,382] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:26:33,430] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.426 seconds
+[2024-07-27 01:27:04,387] {scheduler_job.py:181} INFO - Started process (PID=241) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:27:04,390] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:27:04,391] {logging_mixin.py:104} INFO - [2024-07-27 01:27:04,391] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:27:04,483] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:27:04,535] {logging_mixin.py:104} INFO - [2024-07-27 01:27:04,534] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:27:04,578] {logging_mixin.py:104} INFO - [2024-07-27 01:27:04,578] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:27:04,623] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.242 seconds
+[2024-07-27 01:27:34,958] {scheduler_job.py:181} INFO - Started process (PID=250) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:27:34,961] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:27:34,962] {logging_mixin.py:104} INFO - [2024-07-27 01:27:34,962] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:27:35,062] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:27:35,109] {logging_mixin.py:104} INFO - [2024-07-27 01:27:35,108] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:27:35,139] {logging_mixin.py:104} INFO - [2024-07-27 01:27:35,138] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:27:35,178] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.226 seconds
+[2024-07-27 01:28:05,256] {scheduler_job.py:181} INFO - Started process (PID=255) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:28:05,259] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:28:05,261] {logging_mixin.py:104} INFO - [2024-07-27 01:28:05,261] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:28:05,363] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:28:05,418] {logging_mixin.py:104} INFO - [2024-07-27 01:28:05,418] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:28:05,443] {logging_mixin.py:104} INFO - [2024-07-27 01:28:05,443] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:28:05,476] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.225 seconds
+[2024-07-27 01:28:35,783] {scheduler_job.py:181} INFO - Started process (PID=260) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:28:35,786] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:28:35,793] {logging_mixin.py:104} INFO - [2024-07-27 01:28:35,792] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:28:35,935] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:28:35,988] {logging_mixin.py:104} INFO - [2024-07-27 01:28:35,987] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:28:36,025] {logging_mixin.py:104} INFO - [2024-07-27 01:28:36,025] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:28:36,049] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.272 seconds
+[2024-07-27 01:29:06,451] {scheduler_job.py:181} INFO - Started process (PID=265) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:29:06,455] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:29:06,458] {logging_mixin.py:104} INFO - [2024-07-27 01:29:06,458] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:29:06,605] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:29:06,708] {logging_mixin.py:104} INFO - [2024-07-27 01:29:06,707] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:29:06,767] {logging_mixin.py:104} INFO - [2024-07-27 01:29:06,767] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:29:06,836] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.394 seconds
+[2024-07-27 01:29:37,184] {scheduler_job.py:181} INFO - Started process (PID=270) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:29:37,191] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:29:37,193] {logging_mixin.py:104} INFO - [2024-07-27 01:29:37,193] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:29:37,289] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:29:37,341] {logging_mixin.py:104} INFO - [2024-07-27 01:29:37,341] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:29:37,376] {logging_mixin.py:104} INFO - [2024-07-27 01:29:37,376] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:29:37,418] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.244 seconds
+[2024-07-27 01:30:07,558] {scheduler_job.py:181} INFO - Started process (PID=275) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:30:07,562] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:30:07,565] {logging_mixin.py:104} INFO - [2024-07-27 01:30:07,564] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:30:07,692] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:30:07,743] {logging_mixin.py:104} INFO - [2024-07-27 01:30:07,743] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:30:07,784] {logging_mixin.py:104} INFO - [2024-07-27 01:30:07,784] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:30:07,812] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.262 seconds
+[2024-07-27 01:30:37,997] {scheduler_job.py:181} INFO - Started process (PID=284) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:30:38,004] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:30:38,008] {logging_mixin.py:104} INFO - [2024-07-27 01:30:38,007] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:30:38,091] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:30:38,127] {logging_mixin.py:104} INFO - [2024-07-27 01:30:38,127] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:30:38,144] {logging_mixin.py:104} INFO - [2024-07-27 01:30:38,143] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:30:38,172] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.191 seconds
+[2024-07-27 01:31:08,381] {scheduler_job.py:181} INFO - Started process (PID=289) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:31:08,384] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:31:08,386] {logging_mixin.py:104} INFO - [2024-07-27 01:31:08,386] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:31:08,467] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:31:08,515] {logging_mixin.py:104} INFO - [2024-07-27 01:31:08,515] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:31:08,552] {logging_mixin.py:104} INFO - [2024-07-27 01:31:08,551] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:31:08,609] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.235 seconds
+[2024-07-27 01:31:38,757] {scheduler_job.py:181} INFO - Started process (PID=294) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:31:38,760] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:31:38,762] {logging_mixin.py:104} INFO - [2024-07-27 01:31:38,762] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:31:38,877] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:31:38,938] {logging_mixin.py:104} INFO - [2024-07-27 01:31:38,937] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:31:38,985] {logging_mixin.py:104} INFO - [2024-07-27 01:31:38,984] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:31:39,031] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.280 seconds
+[2024-07-27 01:32:09,294] {scheduler_job.py:181} INFO - Started process (PID=301) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:32:09,298] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:32:09,300] {logging_mixin.py:104} INFO - [2024-07-27 01:32:09,300] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:32:09,439] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:32:09,507] {logging_mixin.py:104} INFO - [2024-07-27 01:32:09,506] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:32:09,553] {logging_mixin.py:104} INFO - [2024-07-27 01:32:09,552] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:32:09,598] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.310 seconds
+[2024-07-27 01:32:40,153] {scheduler_job.py:181} INFO - Started process (PID=308) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:32:40,156] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:32:40,158] {logging_mixin.py:104} INFO - [2024-07-27 01:32:40,158] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:32:40,271] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:32:40,329] {logging_mixin.py:104} INFO - [2024-07-27 01:32:40,329] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:32:40,384] {logging_mixin.py:104} INFO - [2024-07-27 01:32:40,384] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:32:40,410] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.264 seconds
+[2024-07-27 01:33:10,687] {scheduler_job.py:181} INFO - Started process (PID=313) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:33:10,690] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:33:10,692] {logging_mixin.py:104} INFO - [2024-07-27 01:33:10,692] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:33:10,786] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:33:10,841] {logging_mixin.py:104} INFO - [2024-07-27 01:33:10,841] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:33:10,882] {logging_mixin.py:104} INFO - [2024-07-27 01:33:10,881] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:33:10,923] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.243 seconds
+[2024-07-27 01:33:41,143] {scheduler_job.py:181} INFO - Started process (PID=318) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:33:41,148] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:33:41,150] {logging_mixin.py:104} INFO - [2024-07-27 01:33:41,150] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:33:41,246] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:33:41,282] {logging_mixin.py:104} INFO - [2024-07-27 01:33:41,282] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:33:41,304] {logging_mixin.py:104} INFO - [2024-07-27 01:33:41,304] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:33:41,335] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.199 seconds
+[2024-07-27 01:34:11,464] {scheduler_job.py:181} INFO - Started process (PID=323) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:34:11,466] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:34:11,468] {logging_mixin.py:104} INFO - [2024-07-27 01:34:11,468] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:34:11,560] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:34:11,610] {logging_mixin.py:104} INFO - [2024-07-27 01:34:11,610] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:34:11,654] {logging_mixin.py:104} INFO - [2024-07-27 01:34:11,654] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:34:11,697] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.239 seconds
+[2024-07-27 01:34:41,890] {scheduler_job.py:181} INFO - Started process (PID=328) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:34:41,893] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:34:41,895] {logging_mixin.py:104} INFO - [2024-07-27 01:34:41,895] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:34:42,007] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:34:42,064] {logging_mixin.py:104} INFO - [2024-07-27 01:34:42,063] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:34:42,101] {logging_mixin.py:104} INFO - [2024-07-27 01:34:42,101] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:34:42,141] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.258 seconds
+[2024-07-27 01:35:12,301] {scheduler_job.py:181} INFO - Started process (PID=333) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:35:12,305] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:35:12,309] {logging_mixin.py:104} INFO - [2024-07-27 01:35:12,307] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:35:12,445] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:35:12,496] {logging_mixin.py:104} INFO - [2024-07-27 01:35:12,496] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:35:12,526] {logging_mixin.py:104} INFO - [2024-07-27 01:35:12,526] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:35:12,568] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.274 seconds
+[2024-07-27 01:35:43,184] {scheduler_job.py:181} INFO - Started process (PID=342) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:35:43,187] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:35:43,190] {logging_mixin.py:104} INFO - [2024-07-27 01:35:43,189] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:35:43,309] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:35:43,359] {logging_mixin.py:104} INFO - [2024-07-27 01:35:43,359] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:35:43,389] {logging_mixin.py:104} INFO - [2024-07-27 01:35:43,389] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:35:43,414] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.236 seconds
+[2024-07-27 01:36:13,729] {scheduler_job.py:181} INFO - Started process (PID=347) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:36:13,732] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:36:13,734] {logging_mixin.py:104} INFO - [2024-07-27 01:36:13,734] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:36:13,828] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:36:13,904] {logging_mixin.py:104} INFO - [2024-07-27 01:36:13,904] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:36:13,949] {logging_mixin.py:104} INFO - [2024-07-27 01:36:13,948] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:36:13,988] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.265 seconds
+[2024-07-27 01:36:44,271] {scheduler_job.py:181} INFO - Started process (PID=352) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:36:44,274] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:36:44,276] {logging_mixin.py:104} INFO - [2024-07-27 01:36:44,276] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:36:44,405] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:36:44,447] {logging_mixin.py:104} INFO - [2024-07-27 01:36:44,446] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:36:44,464] {logging_mixin.py:104} INFO - [2024-07-27 01:36:44,464] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:36:44,481] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.216 seconds
+[2024-07-27 01:37:15,049] {scheduler_job.py:181} INFO - Started process (PID=359) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:37:15,081] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:37:15,106] {logging_mixin.py:104} INFO - [2024-07-27 01:37:15,106] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:37:15,553] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:37:15,606] {logging_mixin.py:104} INFO - [2024-07-27 01:37:15,606] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:37:15,646] {logging_mixin.py:104} INFO - [2024-07-27 01:37:15,646] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:37:15,691] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.661 seconds
+[2024-07-27 01:37:46,153] {scheduler_job.py:181} INFO - Started process (PID=364) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:37:46,156] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:37:46,158] {logging_mixin.py:104} INFO - [2024-07-27 01:37:46,157] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:37:46,291] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:37:46,351] {logging_mixin.py:104} INFO - [2024-07-27 01:37:46,351] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:37:46,383] {logging_mixin.py:104} INFO - [2024-07-27 01:37:46,383] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:37:46,406] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.260 seconds
+[2024-07-27 01:38:16,870] {scheduler_job.py:181} INFO - Started process (PID=369) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:38:16,875] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:38:16,878] {logging_mixin.py:104} INFO - [2024-07-27 01:38:16,878] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:38:16,987] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:38:17,049] {logging_mixin.py:104} INFO - [2024-07-27 01:38:17,048] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:38:17,090] {logging_mixin.py:104} INFO - [2024-07-27 01:38:17,090] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:38:17,114] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.251 seconds
+[2024-07-27 01:38:47,380] {scheduler_job.py:181} INFO - Started process (PID=374) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:38:47,384] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:38:47,387] {logging_mixin.py:104} INFO - [2024-07-27 01:38:47,386] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:38:47,512] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:38:47,562] {logging_mixin.py:104} INFO - [2024-07-27 01:38:47,562] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:38:47,597] {logging_mixin.py:104} INFO - [2024-07-27 01:38:47,596] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:38:47,636] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.264 seconds
+[2024-07-27 01:39:18,044] {scheduler_job.py:181} INFO - Started process (PID=379) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:39:18,047] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:39:18,050] {logging_mixin.py:104} INFO - [2024-07-27 01:39:18,049] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:39:18,164] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:39:18,220] {logging_mixin.py:104} INFO - [2024-07-27 01:39:18,219] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:39:18,272] {logging_mixin.py:104} INFO - [2024-07-27 01:39:18,272] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:39:18,293] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.258 seconds
+[2024-07-27 01:39:42,563] {scheduler_job.py:181} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:39:42,567] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:39:42,571] {logging_mixin.py:104} INFO - [2024-07-27 01:39:42,571] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:39:42,795] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:39:43,437] {logging_mixin.py:104} INFO - [2024-07-27 01:39:43,436] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:39:43,528] {logging_mixin.py:104} INFO - [2024-07-27 01:39:43,528] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:39:43,633] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 1.076 seconds
+[2024-07-27 01:40:13,997] {scheduler_job.py:181} INFO - Started process (PID=389) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:40:13,999] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:40:14,002] {logging_mixin.py:104} INFO - [2024-07-27 01:40:14,001] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:40:14,101] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:40:14,160] {logging_mixin.py:104} INFO - [2024-07-27 01:40:14,160] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:40:14,208] {logging_mixin.py:104} INFO - [2024-07-27 01:40:14,207] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:40:14,245] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.255 seconds
+[2024-07-27 01:40:44,499] {scheduler_job.py:181} INFO - Started process (PID=398) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:40:44,500] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:40:44,501] {logging_mixin.py:104} INFO - [2024-07-27 01:40:44,501] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:40:44,580] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:40:44,615] {logging_mixin.py:104} INFO - [2024-07-27 01:40:44,615] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:40:44,641] {logging_mixin.py:104} INFO - [2024-07-27 01:40:44,641] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:40:44,686] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.190 seconds
+[2024-07-27 01:41:14,776] {scheduler_job.py:181} INFO - Started process (PID=403) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:41:14,779] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:41:14,782] {logging_mixin.py:104} INFO - [2024-07-27 01:41:14,781] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:41:14,882] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:41:14,940] {logging_mixin.py:104} INFO - [2024-07-27 01:41:14,940] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:41:14,981] {logging_mixin.py:104} INFO - [2024-07-27 01:41:14,981] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:41:15,009] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.240 seconds
+[2024-07-27 01:41:45,347] {scheduler_job.py:181} INFO - Started process (PID=408) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:41:45,352] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:41:45,356] {logging_mixin.py:104} INFO - [2024-07-27 01:41:45,355] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:41:45,461] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:41:46,025] {logging_mixin.py:104} INFO - [2024-07-27 01:41:46,025] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:41:46,148] {logging_mixin.py:104} INFO - [2024-07-27 01:41:46,148] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:41:46,199] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.874 seconds
+[2024-07-27 01:42:16,842] {scheduler_job.py:181} INFO - Started process (PID=413) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:42:16,845] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:42:16,849] {logging_mixin.py:104} INFO - [2024-07-27 01:42:16,848] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:42:16,981] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:42:17,050] {logging_mixin.py:104} INFO - [2024-07-27 01:42:17,049] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:42:17,102] {logging_mixin.py:104} INFO - [2024-07-27 01:42:17,102] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:42:17,163] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.336 seconds
+[2024-07-27 01:42:47,588] {scheduler_job.py:181} INFO - Started process (PID=418) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:42:47,592] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:42:47,595] {logging_mixin.py:104} INFO - [2024-07-27 01:42:47,595] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:42:47,728] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:42:47,793] {logging_mixin.py:104} INFO - [2024-07-27 01:42:47,792] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:42:47,850] {logging_mixin.py:104} INFO - [2024-07-27 01:42:47,850] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:42:47,881] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.312 seconds
+[2024-07-27 01:43:18,349] {scheduler_job.py:181} INFO - Started process (PID=423) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:43:18,355] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:43:18,365] {logging_mixin.py:104} INFO - [2024-07-27 01:43:18,362] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:43:18,465] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:43:18,532] {logging_mixin.py:104} INFO - [2024-07-27 01:43:18,532] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:43:18,585] {logging_mixin.py:104} INFO - [2024-07-27 01:43:18,585] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:43:18,631] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.302 seconds
+[2024-07-27 01:43:49,287] {scheduler_job.py:181} INFO - Started process (PID=428) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:43:49,291] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:43:49,294] {logging_mixin.py:104} INFO - [2024-07-27 01:43:49,293] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:43:49,376] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:43:49,417] {logging_mixin.py:104} INFO - [2024-07-27 01:43:49,417] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:43:49,454] {logging_mixin.py:104} INFO - [2024-07-27 01:43:49,453] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:43:49,495] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.218 seconds
+[2024-07-27 01:44:19,843] {scheduler_job.py:181} INFO - Started process (PID=433) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:44:19,847] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:44:19,849] {logging_mixin.py:104} INFO - [2024-07-27 01:44:19,849] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:44:19,945] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:44:20,002] {logging_mixin.py:104} INFO - [2024-07-27 01:44:20,002] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:44:20,045] {logging_mixin.py:104} INFO - [2024-07-27 01:44:20,044] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:44:20,097] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.260 seconds
+[2024-07-27 01:44:50,159] {scheduler_job.py:181} INFO - Started process (PID=438) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:44:50,161] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:44:50,162] {logging_mixin.py:104} INFO - [2024-07-27 01:44:50,162] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:44:50,220] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:44:50,255] {logging_mixin.py:104} INFO - [2024-07-27 01:44:50,255] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:44:50,273] {logging_mixin.py:104} INFO - [2024-07-27 01:44:50,273] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:44:50,286] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.130 seconds
+[2024-07-27 01:45:20,603] {scheduler_job.py:181} INFO - Started process (PID=443) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:45:20,605] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:45:20,606] {logging_mixin.py:104} INFO - [2024-07-27 01:45:20,606] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:45:20,687] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:45:20,744] {logging_mixin.py:104} INFO - [2024-07-27 01:45:20,744] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:45:20,784] {logging_mixin.py:104} INFO - [2024-07-27 01:45:20,784] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:45:20,828] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.229 seconds
+[2024-07-27 01:45:51,763] {scheduler_job.py:181} INFO - Started process (PID=456) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:45:51,776] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:45:51,779] {logging_mixin.py:104} INFO - [2024-07-27 01:45:51,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:45:51,982] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:45:52,229] {logging_mixin.py:104} INFO - [2024-07-27 01:45:52,228] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:45:52,313] {logging_mixin.py:104} INFO - [2024-07-27 01:45:52,312] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:45:52,630] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.873 seconds
+[2024-07-27 01:47:19,921] {scheduler_job.py:181} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:47:19,923] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:47:19,925] {logging_mixin.py:104} INFO - [2024-07-27 01:47:19,925] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:47:20,039] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:47:20,075] {logging_mixin.py:104} INFO - [2024-07-27 01:47:20,074] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:47:20,099] {logging_mixin.py:104} INFO - [2024-07-27 01:47:20,099] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:47:20,135] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.218 seconds
+[2024-07-27 01:47:50,204] {scheduler_job.py:181} INFO - Started process (PID=168) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:47:50,208] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:47:50,209] {logging_mixin.py:104} INFO - [2024-07-27 01:47:50,209] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:47:50,284] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:47:50,331] {logging_mixin.py:104} INFO - [2024-07-27 01:47:50,330] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:47:50,363] {logging_mixin.py:104} INFO - [2024-07-27 01:47:50,362] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:47:50,395] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.198 seconds
+[2024-07-27 01:48:20,801] {scheduler_job.py:181} INFO - Started process (PID=173) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:48:20,803] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:48:20,806] {logging_mixin.py:104} INFO - [2024-07-27 01:48:20,806] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:48:20,874] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:48:20,930] {logging_mixin.py:104} INFO - [2024-07-27 01:48:20,930] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:48:21,011] {logging_mixin.py:104} INFO - [2024-07-27 01:48:21,010] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:48:21,049] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.253 seconds
+[2024-07-27 01:48:51,195] {scheduler_job.py:181} INFO - Started process (PID=186) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:48:51,200] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:48:51,202] {logging_mixin.py:104} INFO - [2024-07-27 01:48:51,202] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:48:51,399] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:48:51,547] {logging_mixin.py:104} INFO - [2024-07-27 01:48:51,547] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:48:51,671] {logging_mixin.py:104} INFO - [2024-07-27 01:48:51,670] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:48:51,785] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.597 seconds
+[2024-07-27 01:49:22,376] {scheduler_job.py:181} INFO - Started process (PID=191) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:49:22,390] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:49:22,393] {logging_mixin.py:104} INFO - [2024-07-27 01:49:22,393] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:49:22,504] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:49:22,572] {logging_mixin.py:104} INFO - [2024-07-27 01:49:22,571] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:49:22,634] {logging_mixin.py:104} INFO - [2024-07-27 01:49:22,633] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:49:22,678] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.312 seconds
+[2024-07-27 01:49:53,382] {scheduler_job.py:181} INFO - Started process (PID=196) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:49:53,384] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:49:53,385] {logging_mixin.py:104} INFO - [2024-07-27 01:49:53,385] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:49:53,435] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:49:53,456] {logging_mixin.py:104} INFO - [2024-07-27 01:49:53,456] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:49:53,473] {logging_mixin.py:104} INFO - [2024-07-27 01:49:53,473] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:49:53,483] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.105 seconds
+[2024-07-27 01:50:23,904] {scheduler_job.py:181} INFO - Started process (PID=201) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:50:23,907] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:50:23,909] {logging_mixin.py:104} INFO - [2024-07-27 01:50:23,909] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:50:24,050] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:50:24,122] {logging_mixin.py:104} INFO - [2024-07-27 01:50:24,121] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:50:24,163] {logging_mixin.py:104} INFO - [2024-07-27 01:50:24,163] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:50:24,210] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.313 seconds
+[2024-07-27 01:50:54,487] {scheduler_job.py:181} INFO - Started process (PID=208) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:50:54,498] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:50:54,501] {logging_mixin.py:104} INFO - [2024-07-27 01:50:54,501] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:50:54,635] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:50:54,798] {logging_mixin.py:104} INFO - [2024-07-27 01:50:54,797] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:50:54,926] {logging_mixin.py:104} INFO - [2024-07-27 01:50:54,926] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:50:55,016] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.537 seconds
+[2024-07-27 01:51:25,413] {scheduler_job.py:181} INFO - Started process (PID=213) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:51:25,416] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:51:25,419] {logging_mixin.py:104} INFO - [2024-07-27 01:51:25,418] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:51:25,526] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:51:25,578] {logging_mixin.py:104} INFO - [2024-07-27 01:51:25,577] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:51:25,617] {logging_mixin.py:104} INFO - [2024-07-27 01:51:25,616] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:51:25,667] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.260 seconds
+[2024-07-27 01:51:56,082] {scheduler_job.py:181} INFO - Started process (PID=218) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:51:56,085] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:51:56,087] {logging_mixin.py:104} INFO - [2024-07-27 01:51:56,087] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:51:56,146] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:51:56,175] {logging_mixin.py:104} INFO - [2024-07-27 01:51:56,175] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:51:56,191] {logging_mixin.py:104} INFO - [2024-07-27 01:51:56,191] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:51:56,219] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.143 seconds
+[2024-07-27 01:52:26,474] {scheduler_job.py:181} INFO - Started process (PID=223) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:52:26,477] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:52:26,479] {logging_mixin.py:104} INFO - [2024-07-27 01:52:26,479] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:52:26,568] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:52:26,617] {logging_mixin.py:104} INFO - [2024-07-27 01:52:26,617] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:52:26,660] {logging_mixin.py:104} INFO - [2024-07-27 01:52:26,660] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:52:26,701] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.233 seconds
+[2024-07-27 01:52:57,198] {scheduler_job.py:181} INFO - Started process (PID=228) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:52:57,202] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:52:57,205] {logging_mixin.py:104} INFO - [2024-07-27 01:52:57,204] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:52:57,319] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:52:57,380] {logging_mixin.py:104} INFO - [2024-07-27 01:52:57,380] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:52:57,415] {logging_mixin.py:104} INFO - [2024-07-27 01:52:57,415] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:52:57,441] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.250 seconds
+[2024-07-27 01:53:27,662] {scheduler_job.py:181} INFO - Started process (PID=233) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:53:27,665] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:53:27,668] {logging_mixin.py:104} INFO - [2024-07-27 01:53:27,667] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:53:27,769] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:53:27,834] {logging_mixin.py:104} INFO - [2024-07-27 01:53:27,834] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:53:27,873] {logging_mixin.py:104} INFO - [2024-07-27 01:53:27,873] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:53:27,921] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.266 seconds
+[2024-07-27 01:53:58,000] {scheduler_job.py:181} INFO - Started process (PID=240) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:53:58,003] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:53:58,005] {logging_mixin.py:104} INFO - [2024-07-27 01:53:58,005] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:53:58,083] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:53:58,129] {logging_mixin.py:104} INFO - [2024-07-27 01:53:58,128] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:53:58,160] {logging_mixin.py:104} INFO - [2024-07-27 01:53:58,159] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:53:58,198] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.204 seconds
+[2024-07-27 01:54:28,509] {scheduler_job.py:181} INFO - Started process (PID=245) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:54:28,511] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:54:28,513] {logging_mixin.py:104} INFO - [2024-07-27 01:54:28,513] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:54:28,601] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:54:28,654] {logging_mixin.py:104} INFO - [2024-07-27 01:54:28,654] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:54:28,694] {logging_mixin.py:104} INFO - [2024-07-27 01:54:28,693] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:54:28,738] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.237 seconds
+[2024-07-27 01:54:34,575] {scheduler_job.py:181} INFO - Started process (PID=250) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:54:34,577] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:54:34,579] {logging_mixin.py:104} INFO - [2024-07-27 01:54:34,579] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:54:34,712] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:54:36,310] {logging_mixin.py:104} INFO - [2024-07-27 01:54:36,310] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:54:36,377] {logging_mixin.py:104} INFO - [2024-07-27 01:54:36,377] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:54:36,462] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 1.896 seconds
+[2024-07-27 01:55:07,174] {scheduler_job.py:181} INFO - Started process (PID=263) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:55:07,177] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:55:07,183] {logging_mixin.py:104} INFO - [2024-07-27 01:55:07,183] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:55:07,380] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:55:07,441] {logging_mixin.py:104} INFO - [2024-07-27 01:55:07,441] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:55:07,474] {logging_mixin.py:104} INFO - [2024-07-27 01:55:07,474] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:55:07,504] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.343 seconds
+[2024-07-27 01:55:38,026] {scheduler_job.py:181} INFO - Started process (PID=268) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:55:38,029] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:55:38,032] {logging_mixin.py:104} INFO - [2024-07-27 01:55:38,030] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:55:38,114] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:55:38,143] {logging_mixin.py:104} INFO - [2024-07-27 01:55:38,143] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:55:38,159] {logging_mixin.py:104} INFO - [2024-07-27 01:55:38,159] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:55:38,172] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.153 seconds
+[2024-07-27 01:56:08,372] {scheduler_job.py:181} INFO - Started process (PID=275) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:56:08,373] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:56:08,374] {logging_mixin.py:104} INFO - [2024-07-27 01:56:08,374] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:56:08,410] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:56:08,437] {logging_mixin.py:104} INFO - [2024-07-27 01:56:08,437] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:56:08,452] {logging_mixin.py:104} INFO - [2024-07-27 01:56:08,452] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:56:08,466] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.097 seconds
+[2024-07-27 01:56:38,624] {scheduler_job.py:181} INFO - Started process (PID=280) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:56:38,626] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:56:38,627] {logging_mixin.py:104} INFO - [2024-07-27 01:56:38,627] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:56:38,673] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:56:38,699] {logging_mixin.py:104} INFO - [2024-07-27 01:56:38,698] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:56:38,716] {logging_mixin.py:104} INFO - [2024-07-27 01:56:38,715] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:56:38,730] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.108 seconds
+[2024-07-27 01:57:08,795] {scheduler_job.py:181} INFO - Started process (PID=285) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:08,797] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:57:08,798] {logging_mixin.py:104} INFO - [2024-07-27 01:57:08,798] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:08,838] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:08,861] {logging_mixin.py:104} INFO - [2024-07-27 01:57:08,861] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:57:08,878] {logging_mixin.py:104} INFO - [2024-07-27 01:57:08,878] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:57:08,896] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 01:57:39,114] {scheduler_job.py:181} INFO - Started process (PID=290) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:39,116] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:57:39,117] {logging_mixin.py:104} INFO - [2024-07-27 01:57:39,117] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:39,167] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:39,200] {logging_mixin.py:104} INFO - [2024-07-27 01:57:39,200] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:57:39,222] {logging_mixin.py:104} INFO - [2024-07-27 01:57:39,222] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:57:39,238] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.127 seconds
+[2024-07-27 01:57:43,222] {scheduler_job.py:181} INFO - Started process (PID=295) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:43,224] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:57:43,225] {logging_mixin.py:104} INFO - [2024-07-27 01:57:43,224] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:43,300] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:57:43,573] {logging_mixin.py:104} INFO - [2024-07-27 01:57:43,573] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:57:43,590] {logging_mixin.py:104} INFO - [2024-07-27 01:57:43,590] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:57:43,610] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.391 seconds
+[2024-07-27 01:58:13,685] {scheduler_job.py:181} INFO - Started process (PID=310) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:58:13,686] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:58:13,687] {logging_mixin.py:104} INFO - [2024-07-27 01:58:13,687] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:58:13,726] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:58:13,749] {logging_mixin.py:104} INFO - [2024-07-27 01:58:13,748] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:58:13,766] {logging_mixin.py:104} INFO - [2024-07-27 01:58:13,766] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:58:13,778] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.096 seconds
+[2024-07-27 01:58:43,961] {scheduler_job.py:181} INFO - Started process (PID=315) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:58:43,967] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:58:43,969] {logging_mixin.py:104} INFO - [2024-07-27 01:58:43,969] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:58:44,020] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:58:44,054] {logging_mixin.py:104} INFO - [2024-07-27 01:58:44,053] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:58:44,083] {logging_mixin.py:104} INFO - [2024-07-27 01:58:44,082] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:58:44,096] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.137 seconds
+[2024-07-27 01:59:14,334] {scheduler_job.py:181} INFO - Started process (PID=322) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:59:14,335] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:59:14,336] {logging_mixin.py:104} INFO - [2024-07-27 01:59:14,336] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:59:14,374] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:59:14,395] {logging_mixin.py:104} INFO - [2024-07-27 01:59:14,395] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:59:14,409] {logging_mixin.py:104} INFO - [2024-07-27 01:59:14,409] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:59:14,422] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.091 seconds
+[2024-07-27 01:59:44,631] {scheduler_job.py:181} INFO - Started process (PID=327) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 01:59:44,632] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 01:59:44,633] {logging_mixin.py:104} INFO - [2024-07-27 01:59:44,633] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 01:59:44,675] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 01:59:44,709] {logging_mixin.py:104} INFO - [2024-07-27 01:59:44,709] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 01:59:44,727] {logging_mixin.py:104} INFO - [2024-07-27 01:59:44,727] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 01:59:44,769] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.140 seconds
+[2024-07-27 02:00:14,981] {scheduler_job.py:181} INFO - Started process (PID=332) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:00:14,983] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:00:14,988] {logging_mixin.py:104} INFO - [2024-07-27 02:00:14,987] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:00:15,030] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:00:15,052] {logging_mixin.py:104} INFO - [2024-07-27 02:00:15,052] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:00:15,071] {logging_mixin.py:104} INFO - [2024-07-27 02:00:15,071] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:00:15,085] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.109 seconds
+[2024-07-27 02:00:45,177] {scheduler_job.py:181} INFO - Started process (PID=339) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:00:45,179] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:00:45,180] {logging_mixin.py:104} INFO - [2024-07-27 02:00:45,180] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:00:45,221] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:00:45,251] {logging_mixin.py:104} INFO - [2024-07-27 02:00:45,251] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:00:45,267] {logging_mixin.py:104} INFO - [2024-07-27 02:00:45,267] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:00:45,282] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.108 seconds
+[2024-07-27 02:01:15,384] {scheduler_job.py:181} INFO - Started process (PID=344) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:01:15,386] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:01:15,387] {logging_mixin.py:104} INFO - [2024-07-27 02:01:15,387] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:01:15,422] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:01:15,443] {logging_mixin.py:104} INFO - [2024-07-27 02:01:15,443] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:01:15,459] {logging_mixin.py:104} INFO - [2024-07-27 02:01:15,458] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:01:15,471] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.089 seconds
+[2024-07-27 02:01:45,590] {scheduler_job.py:181} INFO - Started process (PID=349) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:01:45,593] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:01:45,594] {logging_mixin.py:104} INFO - [2024-07-27 02:01:45,594] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:01:45,659] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:01:45,695] {logging_mixin.py:104} INFO - [2024-07-27 02:01:45,695] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:01:45,733] {logging_mixin.py:104} INFO - [2024-07-27 02:01:45,732] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:01:45,757] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.171 seconds
+[2024-07-27 02:02:15,914] {scheduler_job.py:181} INFO - Started process (PID=354) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:02:15,916] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:02:15,917] {logging_mixin.py:104} INFO - [2024-07-27 02:02:15,917] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:02:15,958] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:02:15,980] {logging_mixin.py:104} INFO - [2024-07-27 02:02:15,979] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:02:15,994] {logging_mixin.py:104} INFO - [2024-07-27 02:02:15,994] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:02:16,007] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.095 seconds
+[2024-07-27 02:02:46,067] {scheduler_job.py:181} INFO - Started process (PID=359) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:02:46,069] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:02:46,070] {logging_mixin.py:104} INFO - [2024-07-27 02:02:46,069] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:02:46,111] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:02:46,134] {logging_mixin.py:104} INFO - [2024-07-27 02:02:46,134] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:02:46,150] {logging_mixin.py:104} INFO - [2024-07-27 02:02:46,150] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:02:46,166] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.101 seconds
+[2024-07-27 02:03:16,379] {scheduler_job.py:181} INFO - Started process (PID=364) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:03:16,380] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:03:16,381] {logging_mixin.py:104} INFO - [2024-07-27 02:03:16,381] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:03:16,428] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:03:16,455] {logging_mixin.py:104} INFO - [2024-07-27 02:03:16,455] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:03:16,475] {logging_mixin.py:104} INFO - [2024-07-27 02:03:16,475] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:03:16,494] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.118 seconds
+[2024-07-27 02:03:46,697] {scheduler_job.py:181} INFO - Started process (PID=369) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:03:46,698] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:03:46,699] {logging_mixin.py:104} INFO - [2024-07-27 02:03:46,699] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:03:46,743] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:03:46,768] {logging_mixin.py:104} INFO - [2024-07-27 02:03:46,768] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:03:46,785] {logging_mixin.py:104} INFO - [2024-07-27 02:03:46,785] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:03:46,802] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.108 seconds
+[2024-07-27 02:04:16,949] {scheduler_job.py:181} INFO - Started process (PID=374) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:04:16,951] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:04:16,952] {logging_mixin.py:104} INFO - [2024-07-27 02:04:16,952] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:04:16,996] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:04:17,018] {logging_mixin.py:104} INFO - [2024-07-27 02:04:17,017] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:04:17,034] {logging_mixin.py:104} INFO - [2024-07-27 02:04:17,034] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:04:17,049] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.102 seconds
+[2024-07-27 02:04:47,149] {scheduler_job.py:181} INFO - Started process (PID=379) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:04:47,151] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:04:47,152] {logging_mixin.py:104} INFO - [2024-07-27 02:04:47,151] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:04:47,200] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:04:47,228] {logging_mixin.py:104} INFO - [2024-07-27 02:04:47,228] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:04:47,249] {logging_mixin.py:104} INFO - [2024-07-27 02:04:47,249] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:04:47,269] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.123 seconds
+[2024-07-27 02:05:17,359] {scheduler_job.py:181} INFO - Started process (PID=384) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:05:17,361] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:05:17,362] {logging_mixin.py:104} INFO - [2024-07-27 02:05:17,362] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:05:17,401] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:05:17,422] {logging_mixin.py:104} INFO - [2024-07-27 02:05:17,421] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:05:17,436] {logging_mixin.py:104} INFO - [2024-07-27 02:05:17,436] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:05:17,447] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.090 seconds
+[2024-07-27 02:05:47,574] {scheduler_job.py:181} INFO - Started process (PID=389) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:05:47,576] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:05:47,577] {logging_mixin.py:104} INFO - [2024-07-27 02:05:47,577] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:05:47,615] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:05:47,634] {logging_mixin.py:104} INFO - [2024-07-27 02:05:47,634] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:05:47,649] {logging_mixin.py:104} INFO - [2024-07-27 02:05:47,649] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:05:47,663] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.092 seconds
+[2024-07-27 02:06:17,731] {scheduler_job.py:181} INFO - Started process (PID=394) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:06:17,732] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:06:17,733] {logging_mixin.py:104} INFO - [2024-07-27 02:06:17,733] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:06:17,772] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:06:17,795] {logging_mixin.py:104} INFO - [2024-07-27 02:06:17,795] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:06:17,812] {logging_mixin.py:104} INFO - [2024-07-27 02:06:17,812] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:06:17,828] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.100 seconds
+[2024-07-27 02:06:47,976] {scheduler_job.py:181} INFO - Started process (PID=399) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:06:47,977] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:06:47,978] {logging_mixin.py:104} INFO - [2024-07-27 02:06:47,978] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:06:48,013] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:06:48,034] {logging_mixin.py:104} INFO - [2024-07-27 02:06:48,034] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:06:48,049] {logging_mixin.py:104} INFO - [2024-07-27 02:06:48,049] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:06:48,064] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.091 seconds
+[2024-07-27 02:07:18,152] {scheduler_job.py:181} INFO - Started process (PID=404) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:07:18,154] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:07:18,154] {logging_mixin.py:104} INFO - [2024-07-27 02:07:18,154] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:07:18,193] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:07:18,214] {logging_mixin.py:104} INFO - [2024-07-27 02:07:18,214] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:07:18,229] {logging_mixin.py:104} INFO - [2024-07-27 02:07:18,229] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:07:18,245] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.095 seconds
+[2024-07-27 02:07:48,420] {scheduler_job.py:181} INFO - Started process (PID=409) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:07:48,422] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:07:48,423] {logging_mixin.py:104} INFO - [2024-07-27 02:07:48,423] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:07:48,459] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:07:48,480] {logging_mixin.py:104} INFO - [2024-07-27 02:07:48,480] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:07:48,496] {logging_mixin.py:104} INFO - [2024-07-27 02:07:48,496] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:07:48,511] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.093 seconds
+[2024-07-27 02:08:18,590] {scheduler_job.py:181} INFO - Started process (PID=414) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:08:18,592] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:08:18,593] {logging_mixin.py:104} INFO - [2024-07-27 02:08:18,592] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:08:18,636] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:08:18,656] {logging_mixin.py:104} INFO - [2024-07-27 02:08:18,656] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:08:18,673] {logging_mixin.py:104} INFO - [2024-07-27 02:08:18,673] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:08:18,688] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.100 seconds
+[2024-07-27 02:08:48,825] {scheduler_job.py:181} INFO - Started process (PID=419) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:08:48,827] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:08:48,828] {logging_mixin.py:104} INFO - [2024-07-27 02:08:48,827] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:08:48,865] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:08:48,896] {logging_mixin.py:104} INFO - [2024-07-27 02:08:48,896] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:08:48,912] {logging_mixin.py:104} INFO - [2024-07-27 02:08:48,912] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:08:48,927] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 02:09:19,008] {scheduler_job.py:181} INFO - Started process (PID=424) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:09:19,010] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:09:19,011] {logging_mixin.py:104} INFO - [2024-07-27 02:09:19,010] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:09:19,048] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:09:19,070] {logging_mixin.py:104} INFO - [2024-07-27 02:09:19,070] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:09:19,086] {logging_mixin.py:104} INFO - [2024-07-27 02:09:19,086] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:09:19,098] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.093 seconds
+[2024-07-27 02:09:49,240] {scheduler_job.py:181} INFO - Started process (PID=429) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:09:49,242] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:09:49,243] {logging_mixin.py:104} INFO - [2024-07-27 02:09:49,243] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:09:49,281] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:09:49,310] {logging_mixin.py:104} INFO - [2024-07-27 02:09:49,310] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:09:49,326] {logging_mixin.py:104} INFO - [2024-07-27 02:09:49,325] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:09:49,342] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 02:10:19,405] {scheduler_job.py:181} INFO - Started process (PID=434) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:10:19,406] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:10:19,408] {logging_mixin.py:104} INFO - [2024-07-27 02:10:19,407] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:10:19,447] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:10:19,469] {logging_mixin.py:104} INFO - [2024-07-27 02:10:19,469] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:10:19,484] {logging_mixin.py:104} INFO - [2024-07-27 02:10:19,484] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:10:19,499] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.097 seconds
+[2024-07-27 02:10:49,702] {scheduler_job.py:181} INFO - Started process (PID=439) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:10:49,703] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:10:49,704] {logging_mixin.py:104} INFO - [2024-07-27 02:10:49,704] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:10:49,743] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:10:49,765] {logging_mixin.py:104} INFO - [2024-07-27 02:10:49,765] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:10:49,781] {logging_mixin.py:104} INFO - [2024-07-27 02:10:49,781] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:10:49,800] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.101 seconds
+[2024-07-27 02:11:19,974] {scheduler_job.py:181} INFO - Started process (PID=444) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:11:19,975] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:11:19,977] {logging_mixin.py:104} INFO - [2024-07-27 02:11:19,976] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:11:20,016] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:11:20,037] {logging_mixin.py:104} INFO - [2024-07-27 02:11:20,037] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:11:20,054] {logging_mixin.py:104} INFO - [2024-07-27 02:11:20,054] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:11:20,069] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.098 seconds
+[2024-07-27 02:11:50,146] {scheduler_job.py:181} INFO - Started process (PID=449) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:11:50,147] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:11:50,148] {logging_mixin.py:104} INFO - [2024-07-27 02:11:50,147] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:11:50,180] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:11:50,200] {logging_mixin.py:104} INFO - [2024-07-27 02:11:50,200] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:11:50,215] {logging_mixin.py:104} INFO - [2024-07-27 02:11:50,215] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:11:50,225] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.082 seconds
+[2024-07-27 02:12:20,369] {scheduler_job.py:181} INFO - Started process (PID=454) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:12:20,370] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:12:20,371] {logging_mixin.py:104} INFO - [2024-07-27 02:12:20,371] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:12:20,406] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:12:20,425] {logging_mixin.py:104} INFO - [2024-07-27 02:12:20,425] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:12:20,439] {logging_mixin.py:104} INFO - [2024-07-27 02:12:20,439] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:12:20,453] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.087 seconds
+[2024-07-27 02:12:50,648] {scheduler_job.py:181} INFO - Started process (PID=459) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:12:50,649] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:12:50,650] {logging_mixin.py:104} INFO - [2024-07-27 02:12:50,650] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:12:50,697] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:12:50,720] {logging_mixin.py:104} INFO - [2024-07-27 02:12:50,719] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:12:50,737] {logging_mixin.py:104} INFO - [2024-07-27 02:12:50,737] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:12:50,754] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.109 seconds
+[2024-07-27 02:13:20,859] {scheduler_job.py:181} INFO - Started process (PID=464) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:13:20,861] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:13:20,862] {logging_mixin.py:104} INFO - [2024-07-27 02:13:20,862] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:13:20,907] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:13:20,939] {logging_mixin.py:104} INFO - [2024-07-27 02:13:20,938] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:13:20,958] {logging_mixin.py:104} INFO - [2024-07-27 02:13:20,958] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:13:20,974] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.118 seconds
+[2024-07-27 02:13:51,078] {scheduler_job.py:181} INFO - Started process (PID=469) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:13:51,080] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:13:51,082] {logging_mixin.py:104} INFO - [2024-07-27 02:13:51,082] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:13:51,128] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:13:51,151] {logging_mixin.py:104} INFO - [2024-07-27 02:13:51,151] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:13:51,172] {logging_mixin.py:104} INFO - [2024-07-27 02:13:51,172] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:13:51,193] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.119 seconds
+[2024-07-27 02:14:21,386] {scheduler_job.py:181} INFO - Started process (PID=474) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:14:21,387] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:14:21,388] {logging_mixin.py:104} INFO - [2024-07-27 02:14:21,388] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:14:21,429] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:14:21,455] {logging_mixin.py:104} INFO - [2024-07-27 02:14:21,455] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:14:21,471] {logging_mixin.py:104} INFO - [2024-07-27 02:14:21,471] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:14:21,486] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.103 seconds
+[2024-07-27 02:14:51,612] {scheduler_job.py:181} INFO - Started process (PID=479) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:14:51,614] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:14:51,615] {logging_mixin.py:104} INFO - [2024-07-27 02:14:51,614] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:14:51,654] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:14:51,677] {logging_mixin.py:104} INFO - [2024-07-27 02:14:51,677] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:14:51,694] {logging_mixin.py:104} INFO - [2024-07-27 02:14:51,693] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:14:51,708] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.098 seconds
+[2024-07-27 02:15:21,775] {scheduler_job.py:181} INFO - Started process (PID=484) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:21,777] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:15:21,778] {logging_mixin.py:104} INFO - [2024-07-27 02:15:21,778] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:21,820] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:21,844] {logging_mixin.py:104} INFO - [2024-07-27 02:15:21,844] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:15:21,860] {logging_mixin.py:104} INFO - [2024-07-27 02:15:21,859] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:15:21,875] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 02:15:51,965] {scheduler_job.py:181} INFO - Started process (PID=489) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:51,966] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:15:51,968] {logging_mixin.py:104} INFO - [2024-07-27 02:15:51,967] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:52,015] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:52,040] {logging_mixin.py:104} INFO - [2024-07-27 02:15:52,039] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:15:52,054] {logging_mixin.py:104} INFO - [2024-07-27 02:15:52,054] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:15:52,066] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 02:15:57,066] {scheduler_job.py:181} INFO - Started process (PID=494) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:57,068] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:15:57,069] {logging_mixin.py:104} INFO - [2024-07-27 02:15:57,069] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:57,144] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:15:57,388] {logging_mixin.py:104} INFO - [2024-07-27 02:15:57,388] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:15:57,404] {logging_mixin.py:104} INFO - [2024-07-27 02:15:57,404] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:15:57,427] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.364 seconds
+[2024-07-27 02:16:11,241] {scheduler_job.py:181} INFO - Started process (PID=499) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:11,242] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:16:11,244] {logging_mixin.py:104} INFO - [2024-07-27 02:16:11,243] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:11,315] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:11,334] {logging_mixin.py:104} INFO - [2024-07-27 02:16:11,334] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:16:11,365] {logging_mixin.py:104} INFO - [2024-07-27 02:16:11,365] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:16:11,386] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.147 seconds
+[2024-07-27 02:16:19,248] {scheduler_job.py:181} INFO - Started process (PID=508) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:19,251] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:16:19,255] {logging_mixin.py:104} INFO - [2024-07-27 02:16:19,255] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:19,316] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:19,378] {scheduler_job.py:599} INFO - Executed failure callback for <TaskInstance: grillos_operations.create_silver_table 2024-07-27 02:16:16.851974+00:00 [up_for_retry]> in state up_for_retry
+[2024-07-27 02:16:19,391] {logging_mixin.py:104} INFO - [2024-07-27 02:16:19,391] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:16:19,421] {logging_mixin.py:104} INFO - [2024-07-27 02:16:19,421] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:16:19,443] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.200 seconds
+[2024-07-27 02:16:49,560] {scheduler_job.py:181} INFO - Started process (PID=518) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:49,561] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:16:49,562] {logging_mixin.py:104} INFO - [2024-07-27 02:16:49,562] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:49,607] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:16:49,886] {logging_mixin.py:104} INFO - [2024-07-27 02:16:49,885] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:16:49,905] {logging_mixin.py:104} INFO - [2024-07-27 02:16:49,905] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:16:49,924] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.367 seconds
+[2024-07-27 02:17:20,078] {scheduler_job.py:181} INFO - Started process (PID=523) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:17:20,080] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:17:20,081] {logging_mixin.py:104} INFO - [2024-07-27 02:17:20,081] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:17:20,121] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:17:20,141] {logging_mixin.py:104} INFO - [2024-07-27 02:17:20,141] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:17:20,155] {logging_mixin.py:104} INFO - [2024-07-27 02:17:20,155] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:17:20,165] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.090 seconds
+[2024-07-27 02:17:50,401] {scheduler_job.py:181} INFO - Started process (PID=530) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:17:50,403] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:17:50,404] {logging_mixin.py:104} INFO - [2024-07-27 02:17:50,404] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:17:50,445] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:17:50,467] {logging_mixin.py:104} INFO - [2024-07-27 02:17:50,467] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:17:50,483] {logging_mixin.py:104} INFO - [2024-07-27 02:17:50,483] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:17:50,493] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.095 seconds
+[2024-07-27 02:18:20,570] {scheduler_job.py:181} INFO - Started process (PID=535) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:18:20,571] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:18:20,572] {logging_mixin.py:104} INFO - [2024-07-27 02:18:20,572] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:18:20,608] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:18:20,629] {logging_mixin.py:104} INFO - [2024-07-27 02:18:20,629] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:18:20,645] {logging_mixin.py:104} INFO - [2024-07-27 02:18:20,644] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:18:20,660] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.093 seconds
+[2024-07-27 02:18:50,961] {scheduler_job.py:181} INFO - Started process (PID=540) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:18:50,963] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:18:50,964] {logging_mixin.py:104} INFO - [2024-07-27 02:18:50,964] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:18:51,002] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:18:51,023] {logging_mixin.py:104} INFO - [2024-07-27 02:18:51,023] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:18:51,040] {logging_mixin.py:104} INFO - [2024-07-27 02:18:51,040] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:18:51,053] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.094 seconds
+[2024-07-27 02:19:21,159] {scheduler_job.py:181} INFO - Started process (PID=545) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:19:21,161] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:19:21,162] {logging_mixin.py:104} INFO - [2024-07-27 02:19:21,162] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:19:21,298] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:19:21,322] {logging_mixin.py:104} INFO - [2024-07-27 02:19:21,321] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:19:21,340] {logging_mixin.py:104} INFO - [2024-07-27 02:19:21,340] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:19:21,355] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.200 seconds
+[2024-07-27 02:19:51,457] {scheduler_job.py:181} INFO - Started process (PID=550) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:19:51,458] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:19:51,459] {logging_mixin.py:104} INFO - [2024-07-27 02:19:51,459] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:19:51,508] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:19:51,535] {logging_mixin.py:104} INFO - [2024-07-27 02:19:51,535] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:19:51,553] {logging_mixin.py:104} INFO - [2024-07-27 02:19:51,553] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:19:51,569] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.115 seconds
+[2024-07-27 02:20:21,662] {scheduler_job.py:181} INFO - Started process (PID=555) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:20:21,664] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:20:21,666] {logging_mixin.py:104} INFO - [2024-07-27 02:20:21,666] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:20:21,705] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:20:21,728] {logging_mixin.py:104} INFO - [2024-07-27 02:20:21,728] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:20:21,743] {logging_mixin.py:104} INFO - [2024-07-27 02:20:21,743] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:20:21,755] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.095 seconds
+[2024-07-27 02:20:51,907] {scheduler_job.py:181} INFO - Started process (PID=560) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:20:51,908] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:20:51,909] {logging_mixin.py:104} INFO - [2024-07-27 02:20:51,909] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:20:51,949] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:20:51,975] {logging_mixin.py:104} INFO - [2024-07-27 02:20:51,975] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:20:51,991] {logging_mixin.py:104} INFO - [2024-07-27 02:20:51,991] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:20:52,004] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.099 seconds
+[2024-07-27 02:21:22,117] {scheduler_job.py:181} INFO - Started process (PID=565) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:22,119] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:21:22,120] {logging_mixin.py:104} INFO - [2024-07-27 02:21:22,120] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:22,174] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:22,209] {logging_mixin.py:104} INFO - [2024-07-27 02:21:22,209] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:21:22,226] {logging_mixin.py:104} INFO - [2024-07-27 02:21:22,226] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:21:22,250] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.138 seconds
+[2024-07-27 02:21:44,243] {scheduler_job.py:181} INFO - Started process (PID=570) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:44,246] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:21:44,247] {logging_mixin.py:104} INFO - [2024-07-27 02:21:44,247] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:44,317] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:44,644] {logging_mixin.py:104} INFO - [2024-07-27 02:21:44,643] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:21:44,666] {logging_mixin.py:104} INFO - [2024-07-27 02:21:44,666] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:21:44,695] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.456 seconds
+[2024-07-27 02:21:53,460] {scheduler_job.py:181} INFO - Started process (PID=575) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:53,462] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:21:53,464] {logging_mixin.py:104} INFO - [2024-07-27 02:21:53,464] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:53,540] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:21:53,561] {logging_mixin.py:104} INFO - [2024-07-27 02:21:53,561] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:21:53,588] {logging_mixin.py:104} INFO - [2024-07-27 02:21:53,588] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:21:53,619] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.162 seconds
+[2024-07-27 02:22:11,661] {scheduler_job.py:181} INFO - Started process (PID=584) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:22:11,673] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:22:11,676] {logging_mixin.py:104} INFO - [2024-07-27 02:22:11,675] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:22:11,770] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:22:11,821] {scheduler_job.py:599} INFO - Executed failure callback for <TaskInstance: grillos_operations.create_gold_table 2024-07-27 02:22:09.053866+00:00 [up_for_retry]> in state up_for_retry
+[2024-07-27 02:22:11,828] {logging_mixin.py:104} INFO - [2024-07-27 02:22:11,828] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:22:11,857] {logging_mixin.py:104} INFO - [2024-07-27 02:22:11,857] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:22:11,895] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.239 seconds
+[2024-07-27 02:22:42,153] {scheduler_job.py:181} INFO - Started process (PID=596) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:22:42,156] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:22:42,157] {logging_mixin.py:104} INFO - [2024-07-27 02:22:42,157] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:22:42,208] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:22:42,546] {logging_mixin.py:104} INFO - [2024-07-27 02:22:42,545] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:22:42,567] {logging_mixin.py:104} INFO - [2024-07-27 02:22:42,567] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:22:42,585] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.435 seconds
+[2024-07-27 02:23:12,762] {scheduler_job.py:181} INFO - Started process (PID=603) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:23:12,763] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:23:12,765] {logging_mixin.py:104} INFO - [2024-07-27 02:23:12,765] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:23:12,839] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:23:12,864] {logging_mixin.py:104} INFO - [2024-07-27 02:23:12,864] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:23:12,884] {logging_mixin.py:104} INFO - [2024-07-27 02:23:12,884] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:23:12,897] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.139 seconds
+[2024-07-27 02:23:43,051] {scheduler_job.py:181} INFO - Started process (PID=608) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:23:43,053] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:23:43,054] {logging_mixin.py:104} INFO - [2024-07-27 02:23:43,054] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:23:43,101] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:23:43,127] {logging_mixin.py:104} INFO - [2024-07-27 02:23:43,127] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:23:43,145] {logging_mixin.py:104} INFO - [2024-07-27 02:23:43,145] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:23:43,162] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.115 seconds
+[2024-07-27 02:24:13,234] {scheduler_job.py:181} INFO - Started process (PID=613) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:24:13,235] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:24:13,236] {logging_mixin.py:104} INFO - [2024-07-27 02:24:13,236] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:24:13,279] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:24:13,300] {logging_mixin.py:104} INFO - [2024-07-27 02:24:13,300] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:24:13,317] {logging_mixin.py:104} INFO - [2024-07-27 02:24:13,317] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:24:13,329] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.099 seconds
+[2024-07-27 02:24:43,500] {scheduler_job.py:181} INFO - Started process (PID=618) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:24:43,502] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:24:43,503] {logging_mixin.py:104} INFO - [2024-07-27 02:24:43,503] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:24:43,544] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:24:43,567] {logging_mixin.py:104} INFO - [2024-07-27 02:24:43,567] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:24:43,583] {logging_mixin.py:104} INFO - [2024-07-27 02:24:43,583] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:24:43,594] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.097 seconds
+[2024-07-27 02:25:13,675] {scheduler_job.py:181} INFO - Started process (PID=623) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:25:13,677] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:25:13,677] {logging_mixin.py:104} INFO - [2024-07-27 02:25:13,677] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:25:13,711] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:25:13,734] {logging_mixin.py:104} INFO - [2024-07-27 02:25:13,734] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:25:13,759] {logging_mixin.py:104} INFO - [2024-07-27 02:25:13,758] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:25:13,781] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.109 seconds
+[2024-07-27 02:25:44,264] {scheduler_job.py:181} INFO - Started process (PID=652) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:25:44,266] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:25:44,267] {logging_mixin.py:104} INFO - [2024-07-27 02:25:44,267] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:25:44,345] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:25:44,403] {logging_mixin.py:104} INFO - [2024-07-27 02:25:44,402] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:25:44,476] {logging_mixin.py:104} INFO - [2024-07-27 02:25:44,476] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:25:44,515] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.256 seconds
+[2024-07-27 02:26:14,875] {scheduler_job.py:181} INFO - Started process (PID=678) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:26:14,878] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:26:14,879] {logging_mixin.py:104} INFO - [2024-07-27 02:26:14,879] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:26:14,953] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:26:15,011] {logging_mixin.py:104} INFO - [2024-07-27 02:26:15,011] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:26:15,053] {logging_mixin.py:104} INFO - [2024-07-27 02:26:15,052] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:26:15,074] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.204 seconds
+[2024-07-27 02:26:45,239] {scheduler_job.py:181} INFO - Started process (PID=692) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:26:45,241] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:26:45,243] {logging_mixin.py:104} INFO - [2024-07-27 02:26:45,243] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:26:45,312] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:26:45,366] {logging_mixin.py:104} INFO - [2024-07-27 02:26:45,365] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:26:45,412] {logging_mixin.py:104} INFO - [2024-07-27 02:26:45,412] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:26:45,434] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.200 seconds
+[2024-07-27 02:27:15,619] {scheduler_job.py:181} INFO - Started process (PID=697) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:27:15,621] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:27:15,622] {logging_mixin.py:104} INFO - [2024-07-27 02:27:15,622] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:27:15,665] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:27:15,690] {logging_mixin.py:104} INFO - [2024-07-27 02:27:15,690] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:27:15,707] {logging_mixin.py:104} INFO - [2024-07-27 02:27:15,706] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:27:15,718] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.103 seconds
+[2024-07-27 02:27:45,845] {scheduler_job.py:181} INFO - Started process (PID=702) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:27:45,847] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:27:45,848] {logging_mixin.py:104} INFO - [2024-07-27 02:27:45,848] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:27:45,906] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:27:45,945] {logging_mixin.py:104} INFO - [2024-07-27 02:27:45,945] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:27:45,973] {logging_mixin.py:104} INFO - [2024-07-27 02:27:45,973] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:27:45,997] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.154 seconds
+[2024-07-27 02:28:16,073] {scheduler_job.py:181} INFO - Started process (PID=707) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:28:16,079] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:28:16,082] {logging_mixin.py:104} INFO - [2024-07-27 02:28:16,081] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:28:16,130] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:28:16,162] {logging_mixin.py:104} INFO - [2024-07-27 02:28:16,162] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:28:16,180] {logging_mixin.py:104} INFO - [2024-07-27 02:28:16,180] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:28:16,196] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.140 seconds
+[2024-07-27 02:28:47,025] {scheduler_job.py:181} INFO - Started process (PID=712) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:28:47,028] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:28:47,030] {logging_mixin.py:104} INFO - [2024-07-27 02:28:47,030] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:28:47,099] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:28:47,131] {logging_mixin.py:104} INFO - [2024-07-27 02:28:47,131] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:28:47,148] {logging_mixin.py:104} INFO - [2024-07-27 02:28:47,148] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:28:47,164] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.142 seconds
+[2024-07-27 02:29:17,262] {scheduler_job.py:181} INFO - Started process (PID=717) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:29:17,263] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:29:17,264] {logging_mixin.py:104} INFO - [2024-07-27 02:29:17,264] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:29:17,305] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:29:17,326] {logging_mixin.py:104} INFO - [2024-07-27 02:29:17,326] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:29:17,341] {logging_mixin.py:104} INFO - [2024-07-27 02:29:17,340] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:29:17,352] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.092 seconds
+[2024-07-27 02:29:47,557] {scheduler_job.py:181} INFO - Started process (PID=722) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:29:47,560] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:29:47,563] {logging_mixin.py:104} INFO - [2024-07-27 02:29:47,563] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:29:47,648] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:29:47,700] {logging_mixin.py:104} INFO - [2024-07-27 02:29:47,700] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:29:47,721] {logging_mixin.py:104} INFO - [2024-07-27 02:29:47,721] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:29:47,735] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.185 seconds
+[2024-07-27 02:30:17,960] {scheduler_job.py:181} INFO - Started process (PID=727) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:30:17,961] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:30:17,963] {logging_mixin.py:104} INFO - [2024-07-27 02:30:17,963] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:30:18,017] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:30:18,049] {logging_mixin.py:104} INFO - [2024-07-27 02:30:18,049] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:30:18,075] {logging_mixin.py:104} INFO - [2024-07-27 02:30:18,075] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:30:18,094] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.138 seconds
+[2024-07-27 02:30:48,255] {scheduler_job.py:181} INFO - Started process (PID=732) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:30:48,256] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:30:48,257] {logging_mixin.py:104} INFO - [2024-07-27 02:30:48,257] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:30:48,294] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:30:48,316] {logging_mixin.py:104} INFO - [2024-07-27 02:30:48,316] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:30:48,332] {logging_mixin.py:104} INFO - [2024-07-27 02:30:48,332] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:30:48,344] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.092 seconds
+[2024-07-27 02:31:18,453] {scheduler_job.py:181} INFO - Started process (PID=737) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:31:18,455] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:31:18,456] {logging_mixin.py:104} INFO - [2024-07-27 02:31:18,456] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:31:18,490] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:31:18,515] {logging_mixin.py:104} INFO - [2024-07-27 02:31:18,515] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:31:18,531] {logging_mixin.py:104} INFO - [2024-07-27 02:31:18,531] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:31:18,546] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.096 seconds
+[2024-07-27 02:31:48,711] {scheduler_job.py:181} INFO - Started process (PID=742) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:31:48,712] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:31:48,713] {logging_mixin.py:104} INFO - [2024-07-27 02:31:48,713] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:31:48,752] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:31:48,776] {logging_mixin.py:104} INFO - [2024-07-27 02:31:48,776] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:31:48,792] {logging_mixin.py:104} INFO - [2024-07-27 02:31:48,792] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:31:48,804] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.096 seconds
+[2024-07-27 02:32:18,877] {scheduler_job.py:181} INFO - Started process (PID=747) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:32:18,878] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:32:18,880] {logging_mixin.py:104} INFO - [2024-07-27 02:32:18,879] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:32:18,922] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:32:18,944] {logging_mixin.py:104} INFO - [2024-07-27 02:32:18,944] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:32:18,962] {logging_mixin.py:104} INFO - [2024-07-27 02:32:18,962] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:32:18,978] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 02:32:49,289] {scheduler_job.py:181} INFO - Started process (PID=752) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:32:49,291] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:32:49,292] {logging_mixin.py:104} INFO - [2024-07-27 02:32:49,292] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:32:49,348] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:32:49,372] {logging_mixin.py:104} INFO - [2024-07-27 02:32:49,372] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:32:49,389] {logging_mixin.py:104} INFO - [2024-07-27 02:32:49,389] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:32:49,404] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.122 seconds
+[2024-07-27 02:33:19,477] {scheduler_job.py:181} INFO - Started process (PID=757) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:33:19,479] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:33:19,480] {logging_mixin.py:104} INFO - [2024-07-27 02:33:19,480] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:33:19,534] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:33:19,566] {logging_mixin.py:104} INFO - [2024-07-27 02:33:19,566] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:33:19,590] {logging_mixin.py:104} INFO - [2024-07-27 02:33:19,590] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:33:19,605] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.130 seconds
+[2024-07-27 02:33:49,698] {scheduler_job.py:181} INFO - Started process (PID=762) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:33:49,700] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:33:49,701] {logging_mixin.py:104} INFO - [2024-07-27 02:33:49,701] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:33:49,744] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:33:49,770] {logging_mixin.py:104} INFO - [2024-07-27 02:33:49,769] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:33:49,789] {logging_mixin.py:104} INFO - [2024-07-27 02:33:49,789] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:33:49,805] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.110 seconds
+[2024-07-27 02:34:19,940] {scheduler_job.py:181} INFO - Started process (PID=767) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:34:19,941] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:34:19,942] {logging_mixin.py:104} INFO - [2024-07-27 02:34:19,942] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:34:19,981] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:34:20,006] {logging_mixin.py:104} INFO - [2024-07-27 02:34:20,006] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:34:20,023] {logging_mixin.py:104} INFO - [2024-07-27 02:34:20,023] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:34:20,036] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.099 seconds
+[2024-07-27 02:34:50,118] {scheduler_job.py:181} INFO - Started process (PID=772) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:34:50,120] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:34:50,122] {logging_mixin.py:104} INFO - [2024-07-27 02:34:50,121] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:34:50,171] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:34:50,200] {logging_mixin.py:104} INFO - [2024-07-27 02:34:50,200] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:34:50,220] {logging_mixin.py:104} INFO - [2024-07-27 02:34:50,220] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:34:50,239] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.125 seconds
+[2024-07-27 02:35:20,469] {scheduler_job.py:181} INFO - Started process (PID=777) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:35:20,470] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:35:20,471] {logging_mixin.py:104} INFO - [2024-07-27 02:35:20,471] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:35:20,509] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:35:20,540] {logging_mixin.py:104} INFO - [2024-07-27 02:35:20,540] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:35:20,556] {logging_mixin.py:104} INFO - [2024-07-27 02:35:20,556] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:35:20,571] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.105 seconds
+[2024-07-27 02:35:50,836] {scheduler_job.py:181} INFO - Started process (PID=782) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:35:50,839] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:35:50,840] {logging_mixin.py:104} INFO - [2024-07-27 02:35:50,840] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:35:50,883] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:35:50,910] {logging_mixin.py:104} INFO - [2024-07-27 02:35:50,910] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:35:50,927] {logging_mixin.py:104} INFO - [2024-07-27 02:35:50,927] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:35:50,940] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.116 seconds
+[2024-07-27 02:36:21,185] {scheduler_job.py:181} INFO - Started process (PID=787) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:36:21,187] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:36:21,188] {logging_mixin.py:104} INFO - [2024-07-27 02:36:21,188] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:36:21,224] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:36:21,247] {logging_mixin.py:104} INFO - [2024-07-27 02:36:21,247] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:36:21,264] {logging_mixin.py:104} INFO - [2024-07-27 02:36:21,264] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:36:21,276] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.094 seconds
+[2024-07-27 02:36:51,452] {scheduler_job.py:181} INFO - Started process (PID=792) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:36:51,454] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:36:51,455] {logging_mixin.py:104} INFO - [2024-07-27 02:36:51,454] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:36:51,496] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:36:51,530] {logging_mixin.py:104} INFO - [2024-07-27 02:36:51,530] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:36:51,548] {logging_mixin.py:104} INFO - [2024-07-27 02:36:51,547] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:36:51,564] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.114 seconds
+[2024-07-27 02:37:21,624] {scheduler_job.py:181} INFO - Started process (PID=797) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:37:21,627] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:37:21,630] {logging_mixin.py:104} INFO - [2024-07-27 02:37:21,630] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:37:21,691] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:37:21,721] {logging_mixin.py:104} INFO - [2024-07-27 02:37:21,720] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:37:21,739] {logging_mixin.py:104} INFO - [2024-07-27 02:37:21,739] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:37:21,756] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.138 seconds
+[2024-07-27 02:37:52,122] {scheduler_job.py:181} INFO - Started process (PID=802) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:37:52,125] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:37:52,127] {logging_mixin.py:104} INFO - [2024-07-27 02:37:52,127] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:37:52,188] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:37:52,211] {logging_mixin.py:104} INFO - [2024-07-27 02:37:52,211] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:37:52,229] {logging_mixin.py:104} INFO - [2024-07-27 02:37:52,229] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:37:52,241] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.130 seconds
+[2024-07-27 02:38:22,308] {scheduler_job.py:181} INFO - Started process (PID=807) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:38:22,310] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:38:22,311] {logging_mixin.py:104} INFO - [2024-07-27 02:38:22,311] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:38:22,399] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:38:22,440] {logging_mixin.py:104} INFO - [2024-07-27 02:38:22,440] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:38:22,507] {logging_mixin.py:104} INFO - [2024-07-27 02:38:22,507] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:38:22,531] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.225 seconds
+[2024-07-27 02:38:52,696] {scheduler_job.py:181} INFO - Started process (PID=812) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:38:52,698] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:38:52,699] {logging_mixin.py:104} INFO - [2024-07-27 02:38:52,699] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:38:52,764] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:38:52,811] {logging_mixin.py:104} INFO - [2024-07-27 02:38:52,811] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:38:52,831] {logging_mixin.py:104} INFO - [2024-07-27 02:38:52,830] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:38:52,845] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.151 seconds
+[2024-07-27 02:39:23,068] {scheduler_job.py:181} INFO - Started process (PID=817) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:39:23,071] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:39:23,072] {logging_mixin.py:104} INFO - [2024-07-27 02:39:23,072] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:39:23,131] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:39:23,245] {logging_mixin.py:104} INFO - [2024-07-27 02:39:23,245] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:39:23,273] {logging_mixin.py:104} INFO - [2024-07-27 02:39:23,272] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:39:23,289] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.230 seconds
+[2024-07-27 02:39:53,438] {scheduler_job.py:181} INFO - Started process (PID=822) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:39:53,440] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:39:53,441] {logging_mixin.py:104} INFO - [2024-07-27 02:39:53,441] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:39:53,479] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:39:53,506] {logging_mixin.py:104} INFO - [2024-07-27 02:39:53,506] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:39:53,523] {logging_mixin.py:104} INFO - [2024-07-27 02:39:53,523] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:39:53,540] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.106 seconds
+[2024-07-27 02:40:23,617] {scheduler_job.py:181} INFO - Started process (PID=827) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:40:23,619] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:40:23,620] {logging_mixin.py:104} INFO - [2024-07-27 02:40:23,620] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:40:23,704] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:40:23,747] {logging_mixin.py:104} INFO - [2024-07-27 02:40:23,747] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:40:23,770] {logging_mixin.py:104} INFO - [2024-07-27 02:40:23,770] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:40:23,790] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.177 seconds
+[2024-07-27 02:40:54,078] {scheduler_job.py:181} INFO - Started process (PID=832) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:40:54,080] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:40:54,082] {logging_mixin.py:104} INFO - [2024-07-27 02:40:54,081] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:40:54,134] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:40:54,166] {logging_mixin.py:104} INFO - [2024-07-27 02:40:54,166] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:40:54,189] {logging_mixin.py:104} INFO - [2024-07-27 02:40:54,189] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:40:54,211] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.137 seconds
+[2024-07-27 02:41:24,359] {scheduler_job.py:181} INFO - Started process (PID=837) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:41:24,361] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:41:24,362] {logging_mixin.py:104} INFO - [2024-07-27 02:41:24,362] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:41:24,403] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:41:24,426] {logging_mixin.py:104} INFO - [2024-07-27 02:41:24,425] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:41:24,441] {logging_mixin.py:104} INFO - [2024-07-27 02:41:24,441] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:41:24,454] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.105 seconds
+[2024-07-27 02:41:54,501] {scheduler_job.py:181} INFO - Started process (PID=842) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:41:54,502] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:41:54,503] {logging_mixin.py:104} INFO - [2024-07-27 02:41:54,503] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:41:54,544] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:41:54,568] {logging_mixin.py:104} INFO - [2024-07-27 02:41:54,567] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:41:54,584] {logging_mixin.py:104} INFO - [2024-07-27 02:41:54,584] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:41:54,600] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.103 seconds
+[2024-07-27 02:42:24,821] {scheduler_job.py:181} INFO - Started process (PID=847) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:42:24,823] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:42:24,824] {logging_mixin.py:104} INFO - [2024-07-27 02:42:24,824] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:42:24,859] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:42:24,904] {logging_mixin.py:104} INFO - [2024-07-27 02:42:24,904] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:42:24,930] {logging_mixin.py:104} INFO - [2024-07-27 02:42:24,929] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:42:24,947] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.139 seconds
+[2024-07-27 02:42:55,029] {scheduler_job.py:181} INFO - Started process (PID=852) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:42:55,031] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:42:55,033] {logging_mixin.py:104} INFO - [2024-07-27 02:42:55,033] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:42:55,091] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:42:55,122] {logging_mixin.py:104} INFO - [2024-07-27 02:42:55,121] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:42:55,152] {logging_mixin.py:104} INFO - [2024-07-27 02:42:55,151] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:42:55,171] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.145 seconds
+[2024-07-27 02:43:25,277] {scheduler_job.py:181} INFO - Started process (PID=857) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:43:25,278] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:43:25,279] {logging_mixin.py:104} INFO - [2024-07-27 02:43:25,279] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:43:25,319] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:43:25,344] {logging_mixin.py:104} INFO - [2024-07-27 02:43:25,344] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:43:25,361] {logging_mixin.py:104} INFO - [2024-07-27 02:43:25,361] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:43:25,374] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.100 seconds
+[2024-07-27 02:43:55,485] {scheduler_job.py:181} INFO - Started process (PID=862) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:43:55,486] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:43:55,487] {logging_mixin.py:104} INFO - [2024-07-27 02:43:55,487] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:43:55,539] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:43:55,563] {logging_mixin.py:104} INFO - [2024-07-27 02:43:55,563] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:43:55,586] {logging_mixin.py:104} INFO - [2024-07-27 02:43:55,586] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:43:55,599] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.117 seconds
+[2024-07-27 02:44:25,720] {scheduler_job.py:181} INFO - Started process (PID=867) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:44:25,721] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:44:25,723] {logging_mixin.py:104} INFO - [2024-07-27 02:44:25,723] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:44:25,772] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:44:25,814] {logging_mixin.py:104} INFO - [2024-07-27 02:44:25,813] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:44:25,832] {logging_mixin.py:104} INFO - [2024-07-27 02:44:25,832] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:44:25,848] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.131 seconds
+[2024-07-27 02:44:56,020] {scheduler_job.py:181} INFO - Started process (PID=872) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:44:56,021] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:44:56,022] {logging_mixin.py:104} INFO - [2024-07-27 02:44:56,022] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:44:56,061] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:44:56,083] {logging_mixin.py:104} INFO - [2024-07-27 02:44:56,083] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:44:56,101] {logging_mixin.py:104} INFO - [2024-07-27 02:44:56,101] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:44:56,114] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.096 seconds
+[2024-07-27 02:45:26,231] {scheduler_job.py:181} INFO - Started process (PID=877) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:45:26,232] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:45:26,233] {logging_mixin.py:104} INFO - [2024-07-27 02:45:26,233] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:45:26,270] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:45:26,297] {logging_mixin.py:104} INFO - [2024-07-27 02:45:26,297] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:45:26,310] {logging_mixin.py:104} INFO - [2024-07-27 02:45:26,310] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:45:26,324] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.096 seconds
+[2024-07-27 02:45:56,421] {scheduler_job.py:181} INFO - Started process (PID=882) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:45:56,422] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:45:56,423] {logging_mixin.py:104} INFO - [2024-07-27 02:45:56,423] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:45:56,459] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:45:56,480] {logging_mixin.py:104} INFO - [2024-07-27 02:45:56,479] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:45:56,494] {logging_mixin.py:104} INFO - [2024-07-27 02:45:56,493] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:45:56,507] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.090 seconds
+[2024-07-27 02:46:26,688] {scheduler_job.py:181} INFO - Started process (PID=887) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:46:26,690] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:46:26,691] {logging_mixin.py:104} INFO - [2024-07-27 02:46:26,691] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:46:26,736] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:46:26,771] {logging_mixin.py:104} INFO - [2024-07-27 02:46:26,771] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:46:26,802] {logging_mixin.py:104} INFO - [2024-07-27 02:46:26,801] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:46:26,823] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.138 seconds
+[2024-07-27 02:46:56,957] {scheduler_job.py:181} INFO - Started process (PID=892) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:46:56,959] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:46:56,961] {logging_mixin.py:104} INFO - [2024-07-27 02:46:56,960] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:46:57,013] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:46:57,045] {logging_mixin.py:104} INFO - [2024-07-27 02:46:57,044] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:46:57,073] {logging_mixin.py:104} INFO - [2024-07-27 02:46:57,073] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:46:57,091] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.139 seconds
+[2024-07-27 02:47:27,148] {scheduler_job.py:181} INFO - Started process (PID=897) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:47:27,149] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:47:27,150] {logging_mixin.py:104} INFO - [2024-07-27 02:47:27,150] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:47:27,186] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:47:27,209] {logging_mixin.py:104} INFO - [2024-07-27 02:47:27,209] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:47:27,224] {logging_mixin.py:104} INFO - [2024-07-27 02:47:27,224] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:47:27,237] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.092 seconds
+[2024-07-27 02:47:57,519] {scheduler_job.py:181} INFO - Started process (PID=902) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:47:57,520] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:47:57,521] {logging_mixin.py:104} INFO - [2024-07-27 02:47:57,521] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:47:57,580] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:47:57,900] {logging_mixin.py:104} INFO - [2024-07-27 02:47:57,899] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:47:57,918] {logging_mixin.py:104} INFO - [2024-07-27 02:47:57,917] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:47:57,952] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.443 seconds
+[2024-07-27 02:48:28,389] {scheduler_job.py:181} INFO - Started process (PID=919) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:48:28,391] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:48:28,392] {logging_mixin.py:104} INFO - [2024-07-27 02:48:28,391] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:48:28,432] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:48:28,465] {logging_mixin.py:104} INFO - [2024-07-27 02:48:28,465] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:48:28,485] {logging_mixin.py:104} INFO - [2024-07-27 02:48:28,484] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:48:28,510] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.124 seconds
+[2024-07-27 02:48:58,546] {scheduler_job.py:181} INFO - Started process (PID=924) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:48:58,547] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:48:58,548] {logging_mixin.py:104} INFO - [2024-07-27 02:48:58,548] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:48:58,588] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:48:58,618] {logging_mixin.py:104} INFO - [2024-07-27 02:48:58,617] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:48:58,634] {logging_mixin.py:104} INFO - [2024-07-27 02:48:58,634] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:48:58,645] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.102 seconds
+[2024-07-27 02:49:28,820] {scheduler_job.py:181} INFO - Started process (PID=929) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:49:28,823] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:49:28,824] {logging_mixin.py:104} INFO - [2024-07-27 02:49:28,824] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:49:28,869] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:49:28,892] {logging_mixin.py:104} INFO - [2024-07-27 02:49:28,891] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:49:28,907] {logging_mixin.py:104} INFO - [2024-07-27 02:49:28,907] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:49:28,924] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.113 seconds
+[2024-07-27 02:49:58,977] {scheduler_job.py:181} INFO - Started process (PID=934) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:49:58,979] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:49:58,980] {logging_mixin.py:104} INFO - [2024-07-27 02:49:58,979] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:49:59,017] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:49:59,040] {logging_mixin.py:104} INFO - [2024-07-27 02:49:59,040] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:49:59,058] {logging_mixin.py:104} INFO - [2024-07-27 02:49:59,058] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:49:59,073] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.099 seconds
+[2024-07-27 02:50:29,226] {scheduler_job.py:181} INFO - Started process (PID=939) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:50:29,227] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:50:29,228] {logging_mixin.py:104} INFO - [2024-07-27 02:50:29,228] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:50:29,266] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:50:29,286] {logging_mixin.py:104} INFO - [2024-07-27 02:50:29,286] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:50:29,301] {logging_mixin.py:104} INFO - [2024-07-27 02:50:29,300] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:50:29,315] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.091 seconds
+[2024-07-27 02:50:59,385] {scheduler_job.py:181} INFO - Started process (PID=944) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:50:59,386] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:50:59,387] {logging_mixin.py:104} INFO - [2024-07-27 02:50:59,387] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:50:59,420] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:50:59,440] {logging_mixin.py:104} INFO - [2024-07-27 02:50:59,440] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:50:59,454] {logging_mixin.py:104} INFO - [2024-07-27 02:50:59,454] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:50:59,467] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.085 seconds
+[2024-07-27 02:51:29,644] {scheduler_job.py:181} INFO - Started process (PID=949) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:51:29,646] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:51:29,648] {logging_mixin.py:104} INFO - [2024-07-27 02:51:29,647] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:51:29,688] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:51:29,710] {logging_mixin.py:104} INFO - [2024-07-27 02:51:29,710] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:51:29,726] {logging_mixin.py:104} INFO - [2024-07-27 02:51:29,726] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:51:29,741] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.099 seconds
+[2024-07-27 02:51:59,831] {scheduler_job.py:181} INFO - Started process (PID=954) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:51:59,832] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:51:59,833] {logging_mixin.py:104} INFO - [2024-07-27 02:51:59,833] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:51:59,874] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:51:59,898] {logging_mixin.py:104} INFO - [2024-07-27 02:51:59,898] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:51:59,915] {logging_mixin.py:104} INFO - [2024-07-27 02:51:59,915] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:51:59,932] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.104 seconds
+[2024-07-27 02:52:25,047] {scheduler_job.py:181} INFO - Started process (PID=959) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:52:25,049] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:52:25,050] {logging_mixin.py:104} INFO - [2024-07-27 02:52:25,050] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:52:25,102] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:52:25,364] {logging_mixin.py:104} INFO - [2024-07-27 02:52:25,364] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:52:25,384] {logging_mixin.py:104} INFO - [2024-07-27 02:52:25,384] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:52:25,411] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.366 seconds
+[2024-07-27 02:52:55,723] {scheduler_job.py:181} INFO - Started process (PID=964) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:52:55,725] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:52:55,726] {logging_mixin.py:104} INFO - [2024-07-27 02:52:55,726] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:52:55,771] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:52:55,796] {logging_mixin.py:104} INFO - [2024-07-27 02:52:55,796] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:52:55,815] {logging_mixin.py:104} INFO - [2024-07-27 02:52:55,815] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:52:55,831] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.111 seconds
+[2024-07-27 02:53:25,911] {scheduler_job.py:181} INFO - Started process (PID=969) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:53:25,912] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:53:25,913] {logging_mixin.py:104} INFO - [2024-07-27 02:53:25,913] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:53:25,949] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:53:25,971] {logging_mixin.py:104} INFO - [2024-07-27 02:53:25,971] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:53:25,988] {logging_mixin.py:104} INFO - [2024-07-27 02:53:25,988] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:53:26,001] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.094 seconds
+[2024-07-27 02:53:56,215] {scheduler_job.py:181} INFO - Started process (PID=974) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:53:56,218] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:53:56,219] {logging_mixin.py:104} INFO - [2024-07-27 02:53:56,219] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:53:56,261] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:53:56,289] {logging_mixin.py:104} INFO - [2024-07-27 02:53:56,289] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:53:56,304] {logging_mixin.py:104} INFO - [2024-07-27 02:53:56,304] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:53:56,315] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.105 seconds
+[2024-07-27 02:54:26,376] {scheduler_job.py:181} INFO - Started process (PID=979) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:54:26,377] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:54:26,378] {logging_mixin.py:104} INFO - [2024-07-27 02:54:26,378] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:54:26,413] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:54:26,436] {logging_mixin.py:104} INFO - [2024-07-27 02:54:26,435] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:54:26,449] {logging_mixin.py:104} INFO - [2024-07-27 02:54:26,449] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:54:26,460] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.086 seconds
+[2024-07-27 02:54:56,657] {scheduler_job.py:181} INFO - Started process (PID=984) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:54:56,659] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:54:56,660] {logging_mixin.py:104} INFO - [2024-07-27 02:54:56,660] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:54:56,700] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:54:56,723] {logging_mixin.py:104} INFO - [2024-07-27 02:54:56,723] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:54:56,752] {logging_mixin.py:104} INFO - [2024-07-27 02:54:56,752] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:54:56,768] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.114 seconds
+[2024-07-27 02:55:27,079] {scheduler_job.py:181} INFO - Started process (PID=992) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:55:27,082] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:55:27,083] {logging_mixin.py:104} INFO - [2024-07-27 02:55:27,082] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:55:27,129] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:55:27,181] {logging_mixin.py:104} INFO - [2024-07-27 02:55:27,181] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:55:27,205] {logging_mixin.py:104} INFO - [2024-07-27 02:55:27,204] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:55:27,225] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.149 seconds
+[2024-07-27 02:55:57,359] {scheduler_job.py:181} INFO - Started process (PID=1006) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:55:57,361] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:55:57,362] {logging_mixin.py:104} INFO - [2024-07-27 02:55:57,362] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:55:57,400] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:55:57,421] {logging_mixin.py:104} INFO - [2024-07-27 02:55:57,421] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:55:57,436] {logging_mixin.py:104} INFO - [2024-07-27 02:55:57,436] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:55:57,447] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.090 seconds
+[2024-07-27 02:56:27,532] {scheduler_job.py:181} INFO - Started process (PID=1011) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:56:27,533] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:56:27,534] {logging_mixin.py:104} INFO - [2024-07-27 02:56:27,534] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:56:27,570] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:56:27,591] {logging_mixin.py:104} INFO - [2024-07-27 02:56:27,591] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:56:27,605] {logging_mixin.py:104} INFO - [2024-07-27 02:56:27,605] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:56:27,619] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.090 seconds
+[2024-07-27 02:56:57,772] {scheduler_job.py:181} INFO - Started process (PID=1016) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:56:57,773] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:56:57,774] {logging_mixin.py:104} INFO - [2024-07-27 02:56:57,774] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:56:57,816] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:56:57,847] {logging_mixin.py:104} INFO - [2024-07-27 02:56:57,846] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:56:57,863] {logging_mixin.py:104} INFO - [2024-07-27 02:56:57,863] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:56:57,962] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.193 seconds
+[2024-07-27 02:57:28,117] {scheduler_job.py:181} INFO - Started process (PID=1021) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:57:28,119] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:57:28,120] {logging_mixin.py:104} INFO - [2024-07-27 02:57:28,120] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:57:28,155] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:57:28,176] {logging_mixin.py:104} INFO - [2024-07-27 02:57:28,175] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:57:28,190] {logging_mixin.py:104} INFO - [2024-07-27 02:57:28,189] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:57:28,204] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.090 seconds
+[2024-07-27 02:57:58,283] {scheduler_job.py:181} INFO - Started process (PID=1026) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:57:58,285] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:57:58,286] {logging_mixin.py:104} INFO - [2024-07-27 02:57:58,286] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:57:58,326] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:57:58,347] {logging_mixin.py:104} INFO - [2024-07-27 02:57:58,347] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:57:58,361] {logging_mixin.py:104} INFO - [2024-07-27 02:57:58,361] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:57:58,375] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.096 seconds
+[2024-07-27 02:58:28,508] {scheduler_job.py:181} INFO - Started process (PID=1031) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:58:28,509] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:58:28,510] {logging_mixin.py:104} INFO - [2024-07-27 02:58:28,510] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:58:28,553] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:58:28,573] {logging_mixin.py:104} INFO - [2024-07-27 02:58:28,572] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:58:28,588] {logging_mixin.py:104} INFO - [2024-07-27 02:58:28,587] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:58:28,598] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.093 seconds
+[2024-07-27 02:59:35,102] {scheduler_job.py:181} INFO - Started process (PID=163) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 02:59:35,106] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 02:59:35,109] {logging_mixin.py:104} INFO - [2024-07-27 02:59:35,108] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 02:59:35,503] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 02:59:35,551] {logging_mixin.py:104} INFO - [2024-07-27 02:59:35,551] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 02:59:35,576] {logging_mixin.py:104} INFO - [2024-07-27 02:59:35,576] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 02:59:35,603] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.525 seconds
+[2024-07-27 03:00:06,190] {scheduler_job.py:181} INFO - Started process (PID=168) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 03:00:06,193] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 03:00:06,194] {logging_mixin.py:104} INFO - [2024-07-27 03:00:06,194] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 03:00:06,296] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 03:00:06,333] {logging_mixin.py:104} INFO - [2024-07-27 03:00:06,333] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 03:00:06,364] {logging_mixin.py:104} INFO - [2024-07-27 03:00:06,364] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 03:00:06,385] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.201 seconds
+[2024-07-27 03:00:36,669] {scheduler_job.py:181} INFO - Started process (PID=185) to work on /opt/airflow/dags/dag1.py
+[2024-07-27 03:00:36,671] {scheduler_job.py:632} INFO - Processing file /opt/airflow/dags/dag1.py for tasks to queue
+[2024-07-27 03:00:36,674] {logging_mixin.py:104} INFO - [2024-07-27 03:00:36,673] {dagbag.py:496} INFO - Filling up the DagBag from /opt/airflow/dags/dag1.py
+[2024-07-27 03:00:36,751] {scheduler_job.py:642} INFO - DAG(s) dict_keys(['grillos_operations']) retrieved from /opt/airflow/dags/dag1.py
+[2024-07-27 03:00:36,793] {logging_mixin.py:104} INFO - [2024-07-27 03:00:36,793] {dag.py:1833} INFO - Sync 1 DAGs
+[2024-07-27 03:00:36,818] {logging_mixin.py:104} INFO - [2024-07-27 03:00:36,818] {dag.py:2306} INFO - Setting next_dagrun for grillos_operations to 2024-07-27 00:00:00+00:00
+[2024-07-27 03:00:36,848] {scheduler_job.py:189} INFO - Processing /opt/airflow/dags/dag1.py took 0.183 seconds

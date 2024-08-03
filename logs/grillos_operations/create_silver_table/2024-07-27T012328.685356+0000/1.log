@@ -1,0 +1,72 @@
+[2024-07-27 02:25:33,837] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.create_silver_table 2024-07-27T01:23:28.685356+00:00 [queued]>
+[2024-07-27 02:25:33,887] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.create_silver_table 2024-07-27T01:23:28.685356+00:00 [queued]>
+[2024-07-27 02:25:33,888] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 02:25:33,889] {taskinstance.py:1088} INFO - Starting attempt 1 of 4
+[2024-07-27 02:25:33,891] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 02:25:33,931] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): create_silver_table> on 2024-07-27T01:23:28.685356+00:00
+[2024-07-27 02:25:33,938] {standard_task_runner.py:52} INFO - Started process 649 to run task
+[2024-07-27 02:25:33,948] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'create_silver_table', '2024-07-27T01:23:28.685356+00:00', '--job-id', '78', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmp13wbfuhh', '--error-file', '/tmp/tmp0gd8o824']
+[2024-07-27 02:25:33,953] {standard_task_runner.py:77} INFO - Job 78: Subtask create_silver_table
+[2024-07-27 02:25:34,092] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.create_silver_table 2024-07-27T01:23:28.685356+00:00 [running]> on host af0979500140
+[2024-07-27 02:25:34,202] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=create_silver_table
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-27T01:23:28.685356+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-27T01:23:28.685356+00:00
+[2024-07-27 02:25:34,206] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    CREATE TABLE IF NOT EXISTS silver.aggr_data AS
+    SELECT 
+      id,
+      counter,
+      fecha_registro,
+      fecha_nacimiento,
+      tipo,
+      volumen,
+      CASE
+        WHEN tipo = 'R' THEN fecha_nacimiento + INTERVAL '42 days'
+        WHEN tipo = 'E' THEN fecha_nacimiento + INTERVAL '45 days'
+      END as fecha_reproduccion_esperada,
+      CASE
+        WHEN tipo = 'R' THEN fecha_nacimiento + INTERVAL '54 days'
+        WHEN tipo = 'E' THEN fecha_nacimiento + INTERVAL '35 days'
+      END as fecha_sacrificio_esperada
+    FROM 
+        bronze.raw_grillos;
+    COMMIT;
+    
+[2024-07-27 02:25:34,226] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 02:25:34,233] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    CREATE TABLE IF NOT EXISTS silver.aggr_data AS
+    SELECT 
+      id,
+      counter,
+      fecha_registro,
+      fecha_nacimiento,
+      tipo,
+      volumen,
+      CASE
+        WHEN tipo = 'R' THEN fecha_nacimiento + INTERVAL '42 days'
+        WHEN tipo = 'E' THEN fecha_nacimiento + INTERVAL '45 days'
+      END as fecha_reproduccion_esperada,
+      CASE
+        WHEN tipo = 'R' THEN fecha_nacimiento + INTERVAL '54 days'
+        WHEN tipo = 'E' THEN fecha_nacimiento + INTERVAL '35 days'
+      END as fecha_sacrificio_esperada
+    FROM 
+        bronze.raw_grillos;
+    COMMIT;
+    , parameters: None
+[2024-07-27 02:25:34,236] {postgres.py:72} INFO - WARNING:  there is already a transaction in progress
+
+[2024-07-27 02:25:34,241] {postgres.py:72} INFO - NOTICE:  relation "aggr_data" already exists, skipping
+
+[2024-07-27 02:25:34,242] {postgres.py:72} INFO - WARNING:  there is no transaction in progress
+
+[2024-07-27 02:25:34,267] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=grillos_operations, task_id=create_silver_table, execution_date=20240727T012328, start_date=20240727T022533, end_date=20240727T022534
+[2024-07-27 02:25:34,386] {taskinstance.py:1265} INFO - 1 downstream tasks scheduled from follow-on schedule check
+[2024-07-27 02:25:34,430] {local_task_job.py:149} INFO - Task exited with return code 0

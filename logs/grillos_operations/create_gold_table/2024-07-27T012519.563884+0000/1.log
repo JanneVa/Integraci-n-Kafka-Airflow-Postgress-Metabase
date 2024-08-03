@@ -1,0 +1,130 @@
+[2024-07-27 02:25:29,866] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.create_gold_table 2024-07-27T01:25:19.563884+00:00 [queued]>
+[2024-07-27 02:25:29,891] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.create_gold_table 2024-07-27T01:25:19.563884+00:00 [queued]>
+[2024-07-27 02:25:29,892] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 02:25:29,893] {taskinstance.py:1088} INFO - Starting attempt 1 of 4
+[2024-07-27 02:25:29,893] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 02:25:29,916] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): create_gold_table> on 2024-07-27T01:25:19.563884+00:00
+[2024-07-27 02:25:29,921] {standard_task_runner.py:52} INFO - Started process 645 to run task
+[2024-07-27 02:25:29,927] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'create_gold_table', '2024-07-27T01:25:19.563884+00:00', '--job-id', '76', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmp8gfe1sgj', '--error-file', '/tmp/tmpsz2awa6l']
+[2024-07-27 02:25:29,931] {standard_task_runner.py:77} INFO - Job 76: Subtask create_gold_table
+[2024-07-27 02:25:30,010] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.create_gold_table 2024-07-27T01:25:19.563884+00:00 [running]> on host af0979500140
+[2024-07-27 02:25:30,098] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=create_gold_table
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-27T01:25:19.563884+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-27T01:25:19.563884+00:00
+[2024-07-27 02:25:30,099] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    DROP TABLE IF EXISTS gold.monthly_production;
+    CREATE TABLE gold.monthly_production AS
+    WITH PRE AS(
+        SELECT 
+            count(*) as number_of_boxes,  
+            EXTRACT(MONTH FROM fecha_sacrificio_esperada) as month, 
+            tipo as type
+        FROM silver.aggr_data
+        GROUP BY 2, 3
+        ORDER BY 2, 3
+    ),
+    PROD AS(
+        SELECT 
+            month,
+            type,
+            number_of_boxes,
+            CASE 
+                WHEN type = 'E' THEN number_of_boxes * 2.5
+                WHEN type = 'R' THEN number_of_boxes * 1.5
+            END as flour_produced_kg
+        FROM PRE
+    ),
+    FINAL AS(
+        SELECT
+            month as mes_numero, 
+            sum(number_of_boxes) as numero_de_cajas,
+            sum(flour_produced_kg) as total_kg_harina
+        FROM PROD
+        GROUP BY 1
+    )
+    SELECT
+        numero_de_cajas,
+        total_kg_harina,
+        CASE
+            WHEN mes_numero = 1 THEN 'January'
+            WHEN mes_numero = 2 THEN 'February'
+            WHEN mes_numero = 3 THEN 'March'
+            WHEN mes_numero = 4 THEN 'April'
+            WHEN mes_numero = 5 THEN 'May'
+            WHEN mes_numero = 6 THEN 'June'
+            WHEN mes_numero = 7 THEN 'July'
+            WHEN mes_numero = 8 THEN 'August'
+            WHEN mes_numero = 9 THEN 'September'
+            WHEN mes_numero = 10 THEN 'October'
+            WHEN mes_numero = 11 THEN 'November'
+            WHEN mes_numero = 12 THEN 'December'
+        END AS mes_nombre
+    FROM FINAL;
+    COMMIT;
+    
+[2024-07-27 02:25:30,112] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 02:25:30,118] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    DROP TABLE IF EXISTS gold.monthly_production;
+    CREATE TABLE gold.monthly_production AS
+    WITH PRE AS(
+        SELECT 
+            count(*) as number_of_boxes,  
+            EXTRACT(MONTH FROM fecha_sacrificio_esperada) as month, 
+            tipo as type
+        FROM silver.aggr_data
+        GROUP BY 2, 3
+        ORDER BY 2, 3
+    ),
+    PROD AS(
+        SELECT 
+            month,
+            type,
+            number_of_boxes,
+            CASE 
+                WHEN type = 'E' THEN number_of_boxes * 2.5
+                WHEN type = 'R' THEN number_of_boxes * 1.5
+            END as flour_produced_kg
+        FROM PRE
+    ),
+    FINAL AS(
+        SELECT
+            month as mes_numero, 
+            sum(number_of_boxes) as numero_de_cajas,
+            sum(flour_produced_kg) as total_kg_harina
+        FROM PROD
+        GROUP BY 1
+    )
+    SELECT
+        numero_de_cajas,
+        total_kg_harina,
+        CASE
+            WHEN mes_numero = 1 THEN 'January'
+            WHEN mes_numero = 2 THEN 'February'
+            WHEN mes_numero = 3 THEN 'March'
+            WHEN mes_numero = 4 THEN 'April'
+            WHEN mes_numero = 5 THEN 'May'
+            WHEN mes_numero = 6 THEN 'June'
+            WHEN mes_numero = 7 THEN 'July'
+            WHEN mes_numero = 8 THEN 'August'
+            WHEN mes_numero = 9 THEN 'September'
+            WHEN mes_numero = 10 THEN 'October'
+            WHEN mes_numero = 11 THEN 'November'
+            WHEN mes_numero = 12 THEN 'December'
+        END AS mes_nombre
+    FROM FINAL;
+    COMMIT;
+    , parameters: None
+[2024-07-27 02:25:30,150] {postgres.py:72} INFO - WARNING:  there is already a transaction in progress
+
+[2024-07-27 02:25:30,151] {postgres.py:72} INFO - WARNING:  there is no transaction in progress
+
+[2024-07-27 02:25:30,167] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=grillos_operations, task_id=create_gold_table, execution_date=20240727T012519, start_date=20240727T022529, end_date=20240727T022530
+[2024-07-27 02:25:30,210] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-27 02:25:30,220] {local_task_job.py:149} INFO - Task exited with return code 0

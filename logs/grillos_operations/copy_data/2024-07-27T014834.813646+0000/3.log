@@ -1,0 +1,60 @@
+[2024-07-27 01:58:45,322] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-27T01:48:34.813646+00:00 [queued]>
+[2024-07-27 01:58:45,338] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-27T01:48:34.813646+00:00 [queued]>
+[2024-07-27 01:58:45,338] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:58:45,339] {taskinstance.py:1088} INFO - Starting attempt 3 of 4
+[2024-07-27 01:58:45,339] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:58:45,358] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): copy_data> on 2024-07-27T01:48:34.813646+00:00
+[2024-07-27 01:58:45,362] {standard_task_runner.py:52} INFO - Started process 321 to run task
+[2024-07-27 01:58:45,366] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'copy_data', '2024-07-27T01:48:34.813646+00:00', '--job-id', '53', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmp8anttdxc', '--error-file', '/tmp/tmpsbeznn0m']
+[2024-07-27 01:58:45,369] {standard_task_runner.py:77} INFO - Job 53: Subtask copy_data
+[2024-07-27 01:58:45,429] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.copy_data 2024-07-27T01:48:34.813646+00:00 [running]> on host af0979500140
+[2024-07-27 01:58:45,502] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=copy_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-27T01:48:34.813646+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-27T01:48:34.813646+00:00
+[2024-07-27 01:58:45,504] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    CREATE TEMP TABLE tmp_grillos AS TABLE bronze.raw_grillos WITH NO DATA;
+    
+    COPY tmp_grillos (id, counter, fecha_registro, fecha_nacimiento, tipo, volumen)
+    FROM '/import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER;
+
+    INSERT INTO bronze.raw_grillos (id, counter, fecha_registro, fecha_nacimiento, tipo, volumen)
+    SELECT id, counter, fecha_registro, fecha_nacimiento, tipo, volumen
+    FROM tmp_grillos
+    ON CONFLICT (id) DO NOTHING;
+
+    DROP TABLE tmp_grillos;
+    COMMIT;
+    
+[2024-07-27 01:58:45,515] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 01:58:45,520] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    CREATE TEMP TABLE tmp_grillos AS TABLE bronze.raw_grillos WITH NO DATA;
+    
+    COPY tmp_grillos (id, counter, fecha_registro, fecha_nacimiento, tipo, volumen)
+    FROM '/import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER;
+
+    INSERT INTO bronze.raw_grillos (id, counter, fecha_registro, fecha_nacimiento, tipo, volumen)
+    SELECT id, counter, fecha_registro, fecha_nacimiento, tipo, volumen
+    FROM tmp_grillos
+    ON CONFLICT (id) DO NOTHING;
+
+    DROP TABLE tmp_grillos;
+    COMMIT;
+    , parameters: None
+[2024-07-27 01:58:45,537] {postgres.py:72} INFO - WARNING:  there is already a transaction in progress
+
+[2024-07-27 01:58:45,538] {postgres.py:72} INFO - WARNING:  there is no transaction in progress
+
+[2024-07-27 01:58:45,556] {taskinstance.py:1211} INFO - Marking task as SUCCESS. dag_id=grillos_operations, task_id=copy_data, execution_date=20240727T014834, start_date=20240727T015845, end_date=20240727T015845
+[2024-07-27 01:58:45,601] {taskinstance.py:1265} INFO - 0 downstream tasks scheduled from follow-on schedule check
+[2024-07-27 01:58:45,618] {local_task_job.py:149} INFO - Task exited with return code 0

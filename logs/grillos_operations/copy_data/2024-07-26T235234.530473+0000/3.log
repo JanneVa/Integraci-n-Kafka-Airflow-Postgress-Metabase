@@ -1,0 +1,54 @@
+[2024-07-27 01:27:06,623] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-26T23:52:34.530473+00:00 [queued]>
+[2024-07-27 01:27:06,686] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-26T23:52:34.530473+00:00 [queued]>
+[2024-07-27 01:27:06,689] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:27:06,691] {taskinstance.py:1088} INFO - Starting attempt 3 of 4
+[2024-07-27 01:27:06,693] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:27:06,727] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): copy_data> on 2024-07-26T23:52:34.530473+00:00
+[2024-07-27 01:27:06,739] {standard_task_runner.py:52} INFO - Started process 247 to run task
+[2024-07-27 01:27:06,751] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'copy_data', '2024-07-26T23:52:34.530473+00:00', '--job-id', '21', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmpa3be6t5x', '--error-file', '/tmp/tmpyqlc3haf']
+[2024-07-27 01:27:06,770] {standard_task_runner.py:77} INFO - Job 21: Subtask copy_data
+[2024-07-27 01:27:06,850] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.copy_data 2024-07-26T23:52:34.530473+00:00 [running]> on host 3c41c82aeeaa
+[2024-07-27 01:27:06,955] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=copy_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-26T23:52:34.530473+00:00
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-07-26T23:52:34.530473+00:00
+[2024-07-27 01:27:06,957] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    COPY bronze.raw_grillos
+    FROM './import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER;
+    COMMIT;
+    
+[2024-07-27 01:27:06,974] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 01:27:06,984] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    COPY bronze.raw_grillos
+    FROM './import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER;
+    COMMIT;
+    , parameters: None
+[2024-07-27 01:27:06,987] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py", line 70, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 208, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UndefinedFile: could not open file "./import/data_grillos.csv" for reading: No such file or directory
+HINT:  COPY FROM instructs the PostgreSQL server process to read a file. You may want a client-side facility such as psql's \copy.
+
+[2024-07-27 01:27:06,997] {taskinstance.py:1551} INFO - Marking task as UP_FOR_RETRY. dag_id=grillos_operations, task_id=copy_data, execution_date=20240726T235234, start_date=20240727T012706, end_date=20240727T012706
+[2024-07-27 01:27:07,082] {local_task_job.py:149} INFO - Task exited with return code 1

@@ -1,0 +1,55 @@
+[2024-07-27 01:22:09,608] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-26T00:00:00+00:00 [queued]>
+[2024-07-27 01:22:09,650] {taskinstance.py:896} INFO - Dependencies all met for <TaskInstance: grillos_operations.copy_data 2024-07-26T00:00:00+00:00 [queued]>
+[2024-07-27 01:22:09,651] {taskinstance.py:1087} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:22:09,652] {taskinstance.py:1088} INFO - Starting attempt 1 of 4
+[2024-07-27 01:22:09,652] {taskinstance.py:1089} INFO - 
+--------------------------------------------------------------------------------
+[2024-07-27 01:22:09,673] {taskinstance.py:1107} INFO - Executing <Task(PostgresOperator): copy_data> on 2024-07-26T00:00:00+00:00
+[2024-07-27 01:22:09,680] {standard_task_runner.py:52} INFO - Started process 177 to run task
+[2024-07-27 01:22:09,689] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'grillos_operations', 'copy_data', '2024-07-26T00:00:00+00:00', '--job-id', '11', '--pool', 'default_pool', '--raw', '--subdir', 'DAGS_FOLDER/dag1.py', '--cfg-path', '/tmp/tmp15pixvn6', '--error-file', '/tmp/tmptqacgvpp']
+[2024-07-27 01:22:09,694] {standard_task_runner.py:77} INFO - Job 11: Subtask copy_data
+[2024-07-27 01:22:09,805] {logging_mixin.py:104} INFO - Running <TaskInstance: grillos_operations.copy_data 2024-07-26T00:00:00+00:00 [running]> on host 3c41c82aeeaa
+[2024-07-27 01:22:09,965] {taskinstance.py:1302} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=grillos_operations
+AIRFLOW_CTX_TASK_ID=copy_data
+AIRFLOW_CTX_EXECUTION_DATE=2024-07-26T00:00:00+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-07-26T00:00:00+00:00
+[2024-07-27 01:22:09,967] {postgres.py:68} INFO - Executing: 
+    BEGIN;
+    COPY bronze.raw_grillos
+    FROM '/import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER;
+    COMMIT;
+    
+[2024-07-27 01:22:09,992] {base.py:78} INFO - Using connection to: id: ***_grillos. Host: ***_warehouse, Port: 5432, Schema: warehouse, Login: ***, Password: ***, extra: {}
+[2024-07-27 01:22:10,009] {dbapi.py:204} INFO - Running statement: 
+    BEGIN;
+    COPY bronze.raw_grillos
+    FROM '/import/data_grillos.csv'
+    DELIMITER ','
+    CSV HEADER;
+    COMMIT;
+    , parameters: None
+[2024-07-27 01:22:10,052] {taskinstance.py:1501} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1157, in _run_raw_task
+    self._prepare_and_execute_task_with_callbacks(context, task)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1331, in _prepare_and_execute_task_with_callbacks
+    result = self._execute_task(context, task_copy)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/models/taskinstance.py", line 1361, in _execute_task
+    result = task_copy.execute(context=context)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/providers/postgres/operators/postgres.py", line 70, in execute
+    self.hook.run(self.sql, self.autocommit, parameters=self.parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 184, in run
+    self._run_command(cur, sql_statement, parameters)
+  File "/home/airflow/.local/lib/python3.6/site-packages/airflow/hooks/dbapi.py", line 208, in _run_command
+    cur.execute(sql_statement)
+psycopg2.errors.UniqueViolation: duplicate key value violates unique constraint "raw_grillos_pkey"
+DETAIL:  Key (id)=(2023-05-16-000001) already exists.
+CONTEXT:  COPY raw_grillos, line 2
+
+[2024-07-27 01:22:10,061] {taskinstance.py:1551} INFO - Marking task as UP_FOR_RETRY. dag_id=grillos_operations, task_id=copy_data, execution_date=20240726T000000, start_date=20240727T012209, end_date=20240727T012210
+[2024-07-27 01:22:10,142] {local_task_job.py:149} INFO - Task exited with return code 1
